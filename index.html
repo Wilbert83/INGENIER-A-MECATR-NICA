@@ -250,6 +250,18 @@ p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
 	font-size:10.5pt;
 	font-family:"Calibri Light",sans-serif;
 	color:#272727;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Título 9 Car";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
 p.MsoToc1, li.MsoToc1, div.MsoToc1
 	{margin-top:0cm;
 	margin-right:0cm;
@@ -445,6 +457,12 @@ span.Ttulo8Car
 	mso-style-link:"Título 8";
 	font-family:"Calibri Light",sans-serif;
 	color:#272727;}
+span.Ttulo9Car
+	{mso-style-name:"Título 9 Car";
+	mso-style-link:"Título 9";
+	font-family:"Calibri Light",sans-serif;
+	color:#272727;
+	font-style:italic;}
 span.msoIns
 	{mso-style-name:"";
 	text-decoration:underline;
@@ -29007,7 +29025,8 @@ cualquier sistema de control que opere con una base de tiempo está en lazo
 abierto. Por ejemplo, el control de tráfico mediante señales operadas con una
 base de tiempo es otro ejemplo de control en lazo abierto.</p>
 
-<h5><span style='text-transform:none'>SISTEMAS DE CONTROL EN LAZO CERRADO (FEEDBACK)</span></h5>
+<h5><span style='text-transform:none'>SISTEMAS DE CONTROL EN LAZO CERRADO
+(FEEDBACK)</span></h5>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los sistemas de control
 realimentados se denominan también sistemas de control en lazo cerrado. En la
@@ -29590,7 +29609,7 @@ alt="Imagen de la pantalla de un celular con texto&#10;&#10;Descripción generad
 <p class=MsoNormal><i>&#916;<b>k</b></i>&#8203;: Cofactor del camino <b><i>P<sub>k</sub></i></b>
 &#8203;, obtenido eliminando los lazos que tocan el camino directo.</p>
 
-<h6>Ejemplo:</h6>
+<h6>Ejemplo</h6>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=638
 height=144 src="index_archivos/image701.png"
@@ -29634,6 +29653,16 @@ pero puede estar limitada por «detenciones» mecánicas, o el sistema puede
 colapsarse o volverse no lineal una vez que la salida excede cierta magnitud, por
 lo cual ya no se aplican las ecuaciones diferenciales lineales.</p>
 
+<h6>Análisis de sistemas: Estabilidad</h6>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=529 height=465 src="index_archivos/image703.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=570 height=426 src="index_archivos/image704.png"
+alt="Imagen que contiene Escala de tiempo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
 <h5>FUNCIÓN DE TRANSFERENCIA</h5>
 
 <p class=MsoNormal>La función de transferencia es una herramienta fundamental
@@ -29643,14 +29672,14 @@ la entrada, suponiendo que todas las condiciones iniciales son cero.
 Matemáticamente, se expresa como:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=110 height=50 src="index_archivos/image703.png"
+border=0 width=110 height=50 src="index_archivos/image705.png"
 alt="Un dibujo de una persona&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde <b><i>Y(s)</i></b> es la
 salida y <b><i>X(s) o U(s)</i></b> es la entrada&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=667 height=276 src="index_archivos/image704.png"></p>
+border=0 width=667 height=276 src="index_archivos/image706.png"></p>
 
 <p class=MsoNormal>La función de transferencia es una propiedad inherente del
 sistema, independiente de la naturaleza de la entrada. Sin embargo, no
@@ -29671,19 +29700,19 @@ diseño de controladores&#8203;.</p>
 <p class=MsoNormal style='margin-bottom:0cm'>Un ejemplo sencillo: </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=423 height=362 src="index_archivos/image705.png"
+border=0 width=423 height=362 src="index_archivos/image707.png"
 alt="Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=287 height=294 src="index_archivos/image706.png"
+width=287 height=294 src="index_archivos/image708.png"
 alt="Forma, Flecha&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=492 height=165 src="index_archivos/image707.png"
+border=0 width=492 height=165 src="index_archivos/image709.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=288 height=348 src="index_archivos/image708.png"
+width=288 height=348 src="index_archivos/image710.png"
 alt="Diagrama, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Ecuación característica</h6>
@@ -29696,18 +29725,18 @@ sistema cuando se iguala a cero el denominador de la función de transferencia
 en lazo cerrado:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=158 height=25 src="index_archivos/image709.png"></p>
+border=0 width=158 height=25 src="index_archivos/image711.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde <b><i>G(s)</i></b> es la
 función de transferencia de la trayectoria directa y <b><i>H(s) </i></b>la
 función de transferencia de la trayectoria de realimentación&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=288 height=190 src="index_archivos/image710.png"
+border=0 width=288 height=190 src="index_archivos/image712.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=59 src="index_archivos/image711.png"></p>
+border=0 width=665 height=59 src="index_archivos/image713.png"></p>
 
 <p class=MsoNormal>El análisis de la ecuación característica permite determinar
 la ubicación de los polos del sistema en el plano complejo, lo que es crucial
@@ -29725,7 +29754,7 @@ se expresa como una división de polinomios, por lo que su forma general se
 define por medio de las raíces de esos polinomios</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=475 height=72 src="index_archivos/image712.png"
+border=0 width=475 height=72 src="index_archivos/image714.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Donde: </p>
@@ -29761,53 +29790,53 @@ es el número de ceros finitos del sistema</p>
 <p class=MsoHeading7>Sistema Masa-Resorte-Amortiguador (MRA)</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=285 height=124 src="index_archivos/image713.png"
+border=0 width=285 height=124 src="index_archivos/image715.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=479
-height=300 src="index_archivos/image714.png"
+height=300 src="index_archivos/image716.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=387
-height=397 src="index_archivos/image715.png"
+height=397 src="index_archivos/image717.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=632 height=224 src="index_archivos/image716.png"
+border=0 width=632 height=224 src="index_archivos/image718.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=630 height=206 src="index_archivos/image717.png"
+border=0 width=630 height=206 src="index_archivos/image719.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=656 height=174 src="index_archivos/image718.png"
+width=656 height=174 src="index_archivos/image720.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Sistema Circuito eléctrico</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=654 height=217 src="index_archivos/image719.png"
+border=0 width=654 height=217 src="index_archivos/image721.png"
 alt="Un reloj con números romanos&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=651
-height=264 src="index_archivos/image720.png"
+height=264 src="index_archivos/image722.png"
 alt="Imagen de la pantalla de un celular con texto e imagen&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal><img border=0 width=408 height=564
-src="index_archivos/image721.png"
+src="index_archivos/image723.png"
 alt="Aplicación, Gráfico de burbujas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=140 src="index_archivos/image722.png"
+border=0 width=665 height=140 src="index_archivos/image724.png"
 alt="Una captura de pantalla de un celular&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=150 src="index_archivos/image723.png"
+border=0 width=665 height=150 src="index_archivos/image725.png"
 alt="Una captura de pantalla de un celular&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=653 height=189 src="index_archivos/image724.png"
+border=0 width=653 height=189 src="index_archivos/image726.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>POLOS Y CEROS</span></h5>
@@ -29824,7 +29853,7 @@ que ésta tienda al infinito. Se denota como <span style='font-family:"Cambria M
 y en el plano complejo como una X.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=282 height=34 src="index_archivos/image725.png"></p>
+width=282 height=34 src="index_archivos/image727.png"></p>
 
 <p class=MsoNormal><b><i><span style='color:#00B0F0'>Cero</span></i></b>: (<b><i>NUMERADOR</i></b>)
 Es un valor de s que, al ser sustituido en la función de transferencia, hace
@@ -29832,10 +29861,10 @@ que ésta valga cero. Se denota como <span style='font-family:"Cambria Math",ser
 </span>y en el plano complejo como una O.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=274 height=29 src="index_archivos/image726.png"></p>
+width=274 height=29 src="index_archivos/image728.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=414 height=261 src="index_archivos/image727.png"
+border=0 width=414 height=261 src="index_archivos/image729.png"
 alt="Imagen que contiene objeto, reloj, dibujo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><i>NÚMERO DE CEROS
@@ -29862,15 +29891,15 @@ marginalmente estable y puede oscilar indefinidamente&#8203;.</p>
 <p class=MsoNormal style='margin-bottom:0cm'>Ejemplos:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=198 height=165 src="index_archivos/image728.png"
+width=198 height=165 src="index_archivos/image730.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto.">      
-<img border=0 width=263 height=183 src="index_archivos/image729.png"
+<img border=0 width=263 height=183 src="index_archivos/image731.png"
 alt="Diagrama, Gráfico de cajas y bigotes&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=301 height=176 src="index_archivos/image730.png"
+border=0 width=301 height=176 src="index_archivos/image732.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto.">        
-<img border=0 width=250 height=220 src="index_archivos/image731.png"
+<img border=0 width=250 height=220 src="index_archivos/image733.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>El análisis de polos y ceros permite diseñar sistemas de
@@ -29897,27 +29926,27 @@ físico, se deben seguir los siguientes pasos:</p>
 <p class=MsoHeading7>Sistema Masa-Resorte-Amortiguador (MRA)</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=387 height=169 src="index_archivos/image732.png"
+width=387 height=169 src="index_archivos/image734.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=339
-height=280 src="index_archivos/image733.png"
+height=280 src="index_archivos/image735.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."><img
-border=0 width=319 height=276 src="index_archivos/image734.png"
+border=0 width=319 height=276 src="index_archivos/image736.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=329 height=116 src="index_archivos/image735.png"
+border=0 width=329 height=116 src="index_archivos/image737.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=612 height=236 src="index_archivos/image736.png"
+border=0 width=612 height=236 src="index_archivos/image738.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=641 height=104 src="index_archivos/image737.png"
+border=0 width=641 height=104 src="index_archivos/image739.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
@@ -29943,11 +29972,11 @@ robustez del sistema son imprescindibles. </p>
 <h6>Sistemas de Primer Orden</h6>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=648 height=229 src="index_archivos/image738.png"
+border=0 width=648 height=229 src="index_archivos/image740.png"
 alt="Imagen que contiene reloj, objeto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=274 height=72 src="index_archivos/image739.png"
+border=0 width=274 height=72 src="index_archivos/image741.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Respuesta escalón unitario - Sin Retardo</p>
@@ -29959,11 +29988,11 @@ dinámica de sistemas más complejos. Su función de transferencia general se
 expresa como:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=325 height=87 src="index_archivos/image740.png"
+width=325 height=87 src="index_archivos/image742.png"
 alt="Imagen que contiene objeto, reloj, monitor&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=229 height=63 src="index_archivos/image741.png"
+border=0 width=229 height=63 src="index_archivos/image743.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde <b><i>a</i></b> y <b><i>b</i></b>
@@ -29971,24 +30000,24 @@ son parámetros positivos que, en términos físicos, representan la ganancia
 estática y la inversa de la constante de tiempo, respectivamente.</p>
 
 <p class=MsoNormal><img border=0 width=191 height=103
-src="index_archivos/image742.png"
+src="index_archivos/image744.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Si se despeja Y(s) y se desarrolla
 en fracciones simples se obtiene:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=338 height=62 src="index_archivos/image743.png"
+width=338 height=62 src="index_archivos/image745.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=328 height=65 src="index_archivos/image744.png"
+border=0 width=328 height=65 src="index_archivos/image746.png"
 alt="Imagen de la pantalla de un celular con texto e imagen&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Donde: </p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=103
-height=105 src="index_archivos/image745.png"
+height=105 src="index_archivos/image747.png"
 alt="Calendario&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Si se reemplaza <b><span
@@ -29998,11 +30027,11 @@ style='font-family:"Cambria Math",serif'>&#120573;</span></b> y se toma la <b><i
 inversa de Laplace</i></b>, se obtiene:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=472 height=66 src="index_archivos/image746.png"
+border=0 width=472 height=66 src="index_archivos/image748.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=242 height=58 src="index_archivos/image747.png"
+border=0 width=242 height=58 src="index_archivos/image749.png"
 alt="Diagrama, Texto, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Por lo tanto, para una entrada
@@ -30010,8 +30039,8 @@ escalón de magnitud <b><i>A</i></b>, la respuesta temporal del sistema de
 primer orden está dada por:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=243 height=49 src="index_archivos/image748.png"> <img border=0
-width=119 height=31 src="index_archivos/image749.png"></p>
+border=0 width=243 height=49 src="index_archivos/image750.png"> <img border=0
+width=119 height=31 src="index_archivos/image751.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Una característica importante de
 tal <i>curva</i> de <i>respuesta exponencial</i> <b><i>y(t) </i></b>es que,
@@ -30020,22 +30049,22 @@ Es decir, que la respuesta <b><i>y(t)</i></b> alcanzó 63.2% de su cambio total.
 </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=403 height=317 src="index_archivos/image750.png"
+border=0 width=403 height=317 src="index_archivos/image752.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=656 height=410 src="index_archivos/image751.png"
+border=0 width=656 height=410 src="index_archivos/image753.png"
 alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><b>Valor de la respuesta en estado
 permanente (</b><b><span style='font-family:"Cambria Math",serif'>&#119910;</span><sub>&#8734;</sub>)</b></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=247 height=55 src="index_archivos/image752.png"
+border=0 width=247 height=55 src="index_archivos/image754.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=110 height=62 src="index_archivos/image753.png"
+border=0 width=110 height=62 src="index_archivos/image755.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Esta expresión permite interpretar que el sistema exhibe un
@@ -30048,7 +30077,7 @@ velocidad con la que el sistema alcanza su valor de referencia, siendo <b><i>t <
 el punto donde se alcanza el <b>63.2%</b> del valor final. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=545 height=57 src="index_archivos/image754.png"></p>
+border=0 width=545 height=57 src="index_archivos/image756.png"></p>
 
 <p class=MsoNormal>Este parámetro es crucial para diseñar sistemas con
 especificaciones de velocidad de respuesta.</p>
@@ -30060,7 +30089,7 @@ considera que la respuesta alcanza el estado permanente de su respuesta al
 escalón. En términos de rendimiento temporal, se consideran métricas como:</p>
 
 <p class=MsoNormal><img border=0 width=471 height=102
-src="index_archivos/image755.png"
+src="index_archivos/image757.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -30068,11 +30097,11 @@ alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 <p class=MsoHeading8> Teorema del valor final</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=372 height=150 src="index_archivos/image756.png"
+border=0 width=372 height=150 src="index_archivos/image758.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'> <img
-border=0 width=176 height=80 src="index_archivos/image757.png"
+border=0 width=176 height=80 src="index_archivos/image759.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>La respuesta en estado estacionario, fundamental para
@@ -30080,22 +30109,22 @@ evaluar la precisión del sistema en el largo plazo, se obtiene mediante el
 teorema del valor final, bajo la suposición de estabilidad:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=375 height=48 src="index_archivos/image758.png"
+border=0 width=375 height=48 src="index_archivos/image760.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=618 height=140 src="index_archivos/image759.png"
+border=0 width=618 height=140 src="index_archivos/image761.png"
 alt="Imagen que contiene nombre de la empresa&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=362 height=45 src="index_archivos/image760.png"></p>
+width=362 height=45 src="index_archivos/image762.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=302
-height=145 src="index_archivos/image761.png"
+height=145 src="index_archivos/image763.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=394 height=143 src="index_archivos/image762.png"
+width=394 height=143 src="index_archivos/image764.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Respuesta rampa unitaria - Sin Retardo</p>
@@ -30104,69 +30133,69 @@ alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 es <b><i>1/s<sup>2</sup></i></b>, se obtiene la salida del sistema:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=200 height=62 src="index_archivos/image763.png"
+border=0 width=200 height=62 src="index_archivos/image765.png"
 alt="Imagen que contiene objeto, reloj, señal&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Desarrollando <b><i>C(s)</i></b>
 en fracciones simples se obtiene</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=267 height=79 src="index_archivos/image764.png"
+border=0 width=267 height=79 src="index_archivos/image766.png"
 alt="Un dibujo de una persona&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Tomando la transformada inversa de
 Laplace de la Ecuación, se obtiene: </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=405 height=34 src="index_archivos/image765.png"></p>
+border=0 width=405 height=34 src="index_archivos/image767.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>De este modo, la señal de error <b><i>e(t)</i></b>
 es:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=210 height=65 src="index_archivos/image766.png"
+border=0 width=210 height=65 src="index_archivos/image768.png"
 alt="Imagen que contiene objeto, reloj, medidor&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=470 height=416 src="index_archivos/image767.png"></p>
+border=0 width=470 height=416 src="index_archivos/image769.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Conforme <b><i>t </i></b>tiende a
 infinito, <b><i>e<sup>-t/T</sup></i></b> se aproxima a cero y, por tanto, la
 señal de error <b><i>e(t)</i></b> se aproxima a <b><i>T</i></b> o</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=136 height=43 src="index_archivos/image768.png"></p>
+border=0 width=136 height=43 src="index_archivos/image770.png"></p>
 
 <p class=MsoNormal>El error después de la entrada rampa unitaria es igual a <b><i>T
-</i></b>para una <b><i>t</i></b> suficientemente grande. Cuanto más pequeña es la
-constante de tiempo <b><i>T</i></b>, menor es el error en estado estacionario
-después de la entrada rampa.</p>
+</i></b>para una <b><i>t</i></b> suficientemente grande. Cuanto más pequeña es
+la constante de tiempo <b><i>T</i></b>, menor es el error en estado
+estacionario después de la entrada rampa.</p>
 
 <p class=MsoHeading7>Respuesta impulso unitario</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=675 height=145 src="index_archivos/image769.png"
+border=0 width=675 height=145 src="index_archivos/image771.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Para la entrada impulso unitario, <b><i>R(s)
 = 1</i></b> y la salida del sistema pueden obtenerse como</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=149 height=69 src="index_archivos/image770.png"
+border=0 width=149 height=69 src="index_archivos/image772.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>La transformada inversa de Laplace
 produce:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=333 height=68 src="index_archivos/image771.png"
+border=0 width=333 height=68 src="index_archivos/image773.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>La curva de respuesta obtenida mediante
 la Ecuación es:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=617 height=512 src="index_archivos/image772.png"
+border=0 width=617 height=512 src="index_archivos/image774.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Respuesta escalón unitario - Con Retardo</p>
@@ -30175,15 +30204,15 @@ alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede se
 muestra:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=628 src="index_archivos/image773.png"
+border=0 width=665 height=628 src="index_archivos/image775.png"
 alt="Dibujo de una persona&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=261 height=88 src="index_archivos/image774.png"
+border=0 width=261 height=88 src="index_archivos/image776.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=599 height=94 src="index_archivos/image775.png"
+border=0 width=599 height=94 src="index_archivos/image777.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
@@ -30191,58 +30220,58 @@ alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 <p class=MsoNormal>Aplicando la transformada de Laplace</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=478 height=148 src="index_archivos/image776.png"
+border=0 width=478 height=148 src="index_archivos/image778.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=394 height=52 src="index_archivos/image777.png"></p>
+border=0 width=394 height=52 src="index_archivos/image779.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=329 height=106 src="index_archivos/image778.png"
+border=0 width=329 height=106 src="index_archivos/image780.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=309 height=163 src="index_archivos/image779.png"
+border=0 width=309 height=163 src="index_archivos/image781.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=318 height=173 src="index_archivos/image780.png"
+border=0 width=318 height=173 src="index_archivos/image782.png"
 alt="Pizarra&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=483
-height=197 src="index_archivos/image781.png"
+height=197 src="index_archivos/image783.png"
 alt="Interfaz de usuario gráfica, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."> </p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Ante un escalón:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=62 src="index_archivos/image782.png"></p>
+border=0 width=665 height=62 src="index_archivos/image784.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Resolviendo por fracciones parciales:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=67 src="index_archivos/image783.png"></p>
+border=0 width=665 height=67 src="index_archivos/image785.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Aplicando la Transformada inversa
 de Laplace:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=583 height=62 src="index_archivos/image784.png"></p>
+border=0 width=583 height=62 src="index_archivos/image786.png"></p>
 
 <p class=MsoHeading7>Respuesta rampa unitaria - Con Retardo</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=64 src="index_archivos/image785.png"></p>
+border=0 width=665 height=64 src="index_archivos/image787.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=55 src="index_archivos/image786.png"></p>
+border=0 width=665 height=55 src="index_archivos/image788.png"></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=603 height=179 src="index_archivos/image787.png"
+width=603 height=179 src="index_archivos/image789.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=654 height=214 src="index_archivos/image788.png"
+width=654 height=214 src="index_archivos/image790.png"
 alt="Diagrama, Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Sistemas de Segundo Orden</h6>
@@ -30250,10 +30279,16 @@ alt="Diagrama, Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto.
 <p class=MsoNormal style='margin-bottom:0cm'>Los sistemas de segundo orden
 amplían el análisis anterior introduciendo una dinámica con mayor complejidad,
 principalmente debido a la presencia de términos cuadráticos en el denominador
-de su función de transferencia. Esta se define como:</p>
+de su función de transferencia. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=262 height=62 src="index_archivos/image789.png"></p>
+border=0 width=613 height=190 src="index_archivos/image791.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Esta se define como:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=315 height=66 src="index_archivos/image792.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde <b><span style='font-family:
 GreekC_IV25'>&#969;</span><i><sub>n</sub></i></b> representa la frecuencia
@@ -30262,26 +30297,374 @@ coeficiente de amortiguamiento. El comportamiento del sistema está
 intrínsecamente ligado al valor de <span style='font-family:GreekC_IV25'>&#950;</span>,
 permitiendo clasificar las respuestas temporales en distintos regímenes:</p>
 
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=669 height=456 src="index_archivos/image793.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=570
-height=175 src="index_archivos/image790.png"
+height=175 src="index_archivos/image794.png"
 alt="Captura de pantalla de un celular&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
-<p class=MsoNormal style='margin-bottom:0cm'>Los indicadores de desempeño
-temporal que se derivan de esta clasificación son:</p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=483
-height=189 src="index_archivos/image791.png"
-alt="Interfaz de usuario gráfica, Texto, Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'>Donde:</p>
+<p class=MsoHeading7>Respuesta escalón unitario – Caso Oscilatorio (No amortiguado)
+&#950; = 0</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=198 height=37 src="index_archivos/image792.png"></p>
+border=0 width=303 height=102 src="index_archivos/image795.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
-<p class=MsoNormal>es la frecuencia de oscilación amortiguada. El conocimiento
-preciso de estos parámetros permite adaptar la dinámica del sistema a los
-requerimientos de una aplicación específica, como en el control de posición,
-velocidad o presión.</p>
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=596 height=46 src="index_archivos/image796.png"></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=305 height=284 src="index_archivos/image797.png"
+alt="Gráfico de cajas y bigotes&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Si tomamos el sistema de segundo orden y sustituimos &#950; =
+0, obtenemos una función de transferencia representada de la siguiente manera: </p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=621 height=70 src="index_archivos/image798.png"></p>
+
+<p class=MsoNormal>Sabiendo que F(s) es una respuesta escalón entonces
+sustituimos y aplicamos fracciones parciales </p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=194 height=77 src="index_archivos/image799.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto.">  <img
+border=0 width=288 height=70 src="index_archivos/image800.png"
+alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>En ecuaciones parciales nos
+interesa encontrar los coeficientes <b><i>B</i></b>, <b><i>C</i></b> y <b><i>D</i></b>.
+Cuando tenemos polos complejos conjugados el cual con esta representación es
+mucho más fácil solucionar estos sistemas a través de las fracciones parciales.</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=606 height=112 src="index_archivos/image801.png"
+alt="Imagen de la pantalla de un celular con letras&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Resolviendo por medio de las
+fracciones parciales obtenemos esta ecuación: </p>
+
+<p class=MsoNormal><img border=0 width=665 height=77
+src="index_archivos/image802.png"
+alt="Forma&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Por último aplicamos la Transformada inversa de Laplace y
+llegamos a la expresión de salida en el dominio temporal: </p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=354 height=54 src="index_archivos/image803.png"></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=631 height=481 src="index_archivos/image804.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Definiciones de las
+especificaciones de respuesta transitoria:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=372 src="index_archivos/image805.png"
+alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>              <img border=0 width=618 height=410
+src="index_archivos/image806.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoHeading7>Respuesta escalón unitario – Caso Subamortiguado 0 &lt; &#950;
+&lt; 1</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=425 height=101 src="index_archivos/image807.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=42 src="index_archivos/image808.png"></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=540 height=57 src="index_archivos/image809.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Donde: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=387 height=76 src="index_archivos/image810.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La frecuencia <b><span
+style='font-family:GreekC_IV25'>&#969;</span><i><sub>d</sub></i></b> se
+denomina <i>frecuencia natural amortiguada </i>o<i> Frecuencia de oscilación </i><b><span
+style='font-family:GreekC_IV25'>&#969;</span><i><sub>osc</sub></i></b>. </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=552 height=530 src="index_archivos/image811.png"
+alt="Gráfico, Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Para una entrada escalón, <b>X(s)</b>
+se escribe como:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=366 height=77 src="index_archivos/image812.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La transformada inversa de Laplace
+de la Ecuación se obtiene con facilidad si <b>X(s) </b>se escribe de la forma
+siguiente:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=188 src="index_archivos/image813.png"
+alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Sabiendo que:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=445 height=157 src="index_archivos/image814.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Por tanto, la transformada inversa
+de Laplace de la Ecuación se obtiene como:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=91 src="index_archivos/image815.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=101 src="index_archivos/image816.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Usando la siguiente ecuación para
+cuando se tienen ondas con el mismo periodo pero desfasadas:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=610 height=138 src="index_archivos/image817.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Con<b> K=1 </b>y<b> </b>para una
+entrada escalón unitario (<b>A=1</b>):</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=44 height=67 src="index_archivos/image818.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."><img
+border=0 width=605 height=79 src="index_archivos/image819.png"
+alt="Gráfico, Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=600 height=447 src="index_archivos/image820.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading8 style='margin-top:0cm'>Desempeño: Fórmulas en términos de <b><span
+style='font-family:"Cambria Math",serif'>&#120577;</span></b><span
+style='font-family:"Cambria Math",serif'> </span>y <b><span style='font-family:
+"Cambria Math",serif'>&#120596;<sub>&#119899;</sub></span></b></p>
+
+<p class=MsoNormal><img border=0 width=591 height=308
+src="index_archivos/image821.png"
+alt="Interfaz de usuario gráfica, Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=309 height=93
+src="index_archivos/image822.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=552
+height=121 src="index_archivos/image823.png"
+alt="Interfaz de usuario gráfica, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Polos del sistema: caso
+Subamortiguado</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=388 height=268 src="index_archivos/image824.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading8>Desempeño: Fórmulas en términos de Polos del sistema</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=664
+height=350 src="index_archivos/image825.png"
+alt="Interfaz de usuario gráfica, Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=149 src="index_archivos/image826.png"
+alt="Interfaz de usuario gráfica, Texto, Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Respuesta escalón unitario – Caso Críticamente Amortiguado
+&#950; = 1</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Si los dos polos de <b>X(s)/F(s)</b>
+son casi iguales, el sistema se aproxima mediante uno críticamente amortiguado.</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=657 height=184 src="index_archivos/image827.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=345 height=497 src="index_archivos/image828.png"
+alt="Imagen de la pantalla de un celular con letras&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Para una entrada escalón unitario,
+<b>X(s)</b> se escribe como:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=312 height=97 src="index_archivos/image829.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La transformada inversa de Laplace
+de la Ecuación se encuentra como:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=88 src="index_archivos/image830.png"
+alt="Forma&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Da como resultado: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=432 height=53 src="index_archivos/image831.png"><img border=0
+width=231 height=51 src="index_archivos/image832.png"></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=657 height=497 src="index_archivos/image833.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoHeading7>Respuesta escalón unitario – Caso Sobreamortiguado &#950;
+&gt; 1</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=548 height=120 src="index_archivos/image834.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=659 height=107 src="index_archivos/image835.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>En este caso, los dos polos de son
+reales negativos y diferentes, se calculan con: </p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=643 height=68 src="index_archivos/image836.png"></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=514 height=521 src="index_archivos/image837.png"
+alt="Diagrama, Esquemático, Gráfico de cajas y bigotes&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=465 src="index_archivos/image838.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Parámetros de una respuesta
+sobreamortiguada</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Valor de la salida en Estado
+Permanente:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=197 height=38 src="index_archivos/image839.png"></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=633 height=114 src="index_archivos/image840.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Si asumimos que: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=349 height=97 src="index_archivos/image841.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=661 height=92 src="index_archivos/image842.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Si consideramos: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=41 src="index_archivos/image843.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Se puede expresar la Ecuación como</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=290 height=83 src="index_archivos/image844.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Para una entrada escalón unitario
+y utilizando las fracciones parciales, se escriben como:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=558
+height=189 src="index_archivos/image845.png"
+alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La transformada inversa de Laplace
+de la Ecuación es:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=567
+height=178 src="index_archivos/image846.png"
+alt="Imagen que contiene Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Por tanto, la respuesta incluye dos términos exponenciales
+que decaen.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=350 height=269 src="index_archivos/image847.png"
+alt="Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Respuesta impulso unitario</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Para una entrada impulso unitario <b>r(t)</b>,
+la transformada de Laplace correspondiente es la unidad, o <b>R(s) = 1</b>. </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=401 height=97 src="index_archivos/image848.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La respuesta impulso unitario <b>C(s)
+</b>del sistema de segundo orden es:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=680 height=299 src="index_archivos/image849.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La transformada inversa de Laplace
+de esta ecuación da la solución en el tiempo para la respuesta <b>c(t),</b> del
+modo siguiente:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=244 src="index_archivos/image850.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Para los casos críticamente Amortiguado y Sobreamortiguado,
+la respuesta impulso unitario siempre es <b>positiva </b>o<b> cero</b>; es
+decir, <b>c(t)</b> &gt; 0. </p>
+
+<p class=MsoNormal>Para el caso Subamortiguado, la respuesta impulso unitario <b>c(t)</b>
+oscila alrededor de cero y toma valores tanto positivos como negativos.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=660 height=506 src="index_archivos/image851.png"
+alt="Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La sobreelongación máxima para la
+respuesta impulso unitario del sistema Subamortiguado se da en:</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=442 height=122 src="index_archivos/image852.png"
+alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La sobreelongación máxima es:</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=662 height=71 src="index_archivos/image853.png"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
 
 <h6>Sistemas de Orden Superior</h6>
 
@@ -30291,6 +30674,70 @@ representan una generalización más realista de muchos sistemas físicos
 complejos. En estos casos, la función de transferencia presenta múltiples polos
 y posiblemente ceros, lo que da lugar a una dinámica rica en modos propios,
 acoplamientos y efectos transitorios diversos.</p>
+
+<p class=MsoHeading7>Sistemas de Tercer Orden</p>
+
+<p class=MsoNormal>Los sistemas de tercer orden tienen tres polos y están
+representados típicamente por ecuaciones diferenciales ordinarias de tercer
+orden. Considerando el caso de las ecuaciones diferenciales lineales de tercer
+orden con coeficientes constantes y condición inicial cero tenemos:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La forma clásica de un sistema de
+tercer orden puede ser encontrado muy comúnmente en los sistemas de lazo
+cerrado de controladores clásicos como el control PID. </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=72 src="index_archivos/image854.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Si definimos la entrada del
+sistema como un escalón unitario </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=144 height=66 src="index_archivos/image855.png"
+alt="Imagen que contiene objeto, reloj, dibujo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Se multiplica por la entrada y
+obtenemos:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=435 height=76 src="index_archivos/image856.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Se aplica las fracciones parciales
+y encontramos que:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=433 height=78 src="index_archivos/image857.png"
+alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=636 height=61 src="index_archivos/image858.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Ya por ultimo: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=668 height=48 src="index_archivos/image859.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Donde el factor de proporción
+entre el polo real y los dos polos complejos conjugados viene dado por:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=82 height=48 src="index_archivos/image860.png"></p>
+
+<p class=MsoNormal>El efecto del polo real s=-p ante una entrada escalón
+unitario es la de reducir el máximo sobreimpulso y incrementar el tiempo de
+acomodación.</p>
+
+<p class=MsoNormal>Si el polo real se localiza a la derecha de los polos
+complejos conjugados, la respuesta tiende a ser lenta.</p>
+
+<p class=MsoNormal>Caso contrario el sistema tenderá a tener un comportamiento
+similar a un sistema Subamortiguado.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=667 height=542 src="index_archivos/image861.jpg"></p>
+
+<p class=MsoHeading7>Polos dominantes</p>
 
 <p class=MsoNormal>Para fines prácticos de diseño y análisis, se recurre al
 concepto de polos dominantes, entendidos como aquellos polos cuya parte real es
@@ -30304,32 +30751,330 @@ despreciarse en el análisis de primer orden.</p>
 
 <p class=MsoNormal>El análisis en sistemas de orden superior puede revelar la
 presencia de oscilaciones múltiples, resonancias, modos lentos y rápidos, y
-efectos de retardo. Estos fenómenos hacen necesario el empleo de métodos
+efectos de retardo. </p>
+
+<p class=MsoNormal>Estos fenómenos hacen necesario el empleo de métodos
 avanzados como la descomposición modal, técnicas de control óptimo, y
-simulaciones en entornos computacionales tales como MATLAB/Simulink. La
-correcta interpretación de estos modelos es fundamental para la sintonización
-de controladores multivariable o en arquitecturas de control distribuido.</p>
+simulaciones en entornos computacionales tales como MATLAB/Simulink. </p>
+
+<p class=MsoNormal>La correcta interpretación de estos modelos es fundamental
+para la sintonización de controladores multivariable o en arquitecturas de
+control distribuido.</p>
+
+<p class=MsoNormal>Criterio de polos dominantes: Si la parte real de todos los
+polos no dominantes es por lo menos 5 veces más grande en magnitud que el valor
+absoluto de la parte real del/de los polos(s) dominante(s), entonces la
+respuesta del sistema original se puede aproximar por medio de la información
+de los polos dominantes.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=630 height=92 src="index_archivos/image862.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h4 style='margin-left:35.45pt;text-indent:-21.25pt'>2.6<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span><span style='color:black'>Errores en estado permanente en sistemas
 retroalimentados.</span></h4>
 
-<p class=MsoNormal style='margin-top:12.0pt'><b><i><span style='color:#00B0F0'>Error
-en estado estacionario</span></i></b><span style='color:#00B0F0'> </span>(<b><i>Steady-state
-error</i></b>): Este término se refiere específicamente al error que persiste
-después de que la respuesta transitoria del sistema ha desaparecido. Es decir,
-una vez que el sistema ha alcanzado un estado de equilibrio o estabilidad, la
-diferencia entre la señal de entrada deseada (referencia) y la señal de salida
-real se define como el error en estado estacionario. Este error se analiza
-típicamente para entradas de prueba estándar como escalón, rampa y parábola.</p>
+<h5><span style='text-transform:none'>ERROR EN ESTADO PERMANENTE</span></h5>
 
-<p class=MsoNormal><b><i><span style='color:#00B0F0'>Error en estado permanente</span></i></b><span
-style='color:#00B0F0'> </span>(<b><i>Permanent error</i></b>): Este término es
-un poco más general y puede referirse a cualquier error que persiste
-indefinidamente en el tiempo, independientemente de si el sistema ha alcanzado
-un estado estacionario o no. En la práctica, en el contexto de sistemas de
-control lineales e invariantes en el tiempo (LTI), el error en estado
-permanente generalmente coincide con el error en estado estacionario.</p>
+<h6>Error en estado estacionario </h6>
+
+<p class=MsoNormal>(<b><i>Steady-state error</i></b>): Este término se refiere
+específicamente al error que persiste después de que la respuesta transitoria
+del sistema ha desaparecido. </p>
+
+<p class=MsoNormal>Es decir, una vez que el sistema ha alcanzado un estado de
+equilibrio o estabilidad, la diferencia entre la señal de entrada deseada
+(referencia) y la señal de salida real se define como el error en estado
+estacionario. Este error se analiza típicamente para entradas de prueba
+estándar como escalón, rampa y parábola.</p>
+
+<p class=MsoNormal>Este error se define formalmente como la discrepancia
+constante que se manifiesta entre la entrada de referencia deseada, denotada
+como <b><i>r(t)</i></b>, y la salida efectiva del sistema <b><i>y(t)</i></b>,
+una vez que las respuestas transitorias han decaído y el sistema se ha asentado
+en su comportamiento asintótico. </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>En términos analíticos, esta
+discrepancia se expresa mediante:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=345 height=53 src="index_archivos/image863.png"></p>
+
+<p class=MsoNormal>Este concepto se encuentra estrechamente ligado al desempeño
+de seguimiento del sistema, siendo esencial en la caracterización de la calidad
+del control aplicado.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La herramienta matemática por
+excelencia para el análisis de este error es la transformada de Laplace,
+complementada con el teorema del valor final, lo cual permite una evaluación
+precisa sin necesidad de recurrir a soluciones explícitas en el dominio del
+tiempo:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=425 height=53 src="index_archivos/image864.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>donde:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=552 height=90
+src="index_archivos/image865.png"
+alt="Interfaz de usuario gráfica, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Esta formulación permite inferir, a partir de las
+propiedades del sistema, la magnitud del error residual esperado, lo cual es
+crucial para tareas de diseño y evaluación de desempeño.</p>
+
+<p class=MsoHeading7>Naturaleza de la Entrada y Constantes de Error Estático</p>
+
+<p class=MsoNormal>El análisis del error en estado estacionario se realiza
+habitualmente mediante el uso de señales de prueba estándar, que permiten
+evaluar la capacidad del sistema para responder de manera adecuada ante
+entradas fundamentales que representan escenarios típicos de operación.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Las entradas más empleadas
+incluyen:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=275
+height=116 src="index_archivos/image866.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>A fin de cuantificar la capacidad
+de seguimiento del sistema ante estas señales, se definen tres constantes de
+error estático:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=553 height=87
+src="index_archivos/image867.png"
+alt="Interfaz de usuario gráfica, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Estas constantes proporcionan una
+base para expresar el error de seguimiento de forma cerrada, permitiendo así
+evaluar de manera directa el desempeño estacionario:</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=350
+height=134 src="index_archivos/image868.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Tipología del Sistema y su Incidencia sobre el Error</p>
+
+<p class=MsoNormal>Una variable crítica que condiciona la magnitud del error
+estacionario es el tipo del sistema, el cual se define a partir del número de
+polos en el origen de la función de transferencia del lazo abierto <b><i>G(s)H(s)</i></b>,
+es decir, del número de integradores presentes en la trayectoria directa del
+sistema. La clasificación se realiza como sigue:</p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Tipo 0: sin integradores (ningún polo en el origen)</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Tipo 1: un integrador (un polo en el origen)</p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Tipo 2: dos integradores (dos polos en el origen)</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La relación entre el tipo del
+sistema y su capacidad para minimizar el error en estado estacionario se resume
+en la tabla siguiente:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=644 height=158 src="index_archivos/image869.png"
+alt="Interfaz de usuario gráfica, Texto, Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<h6>Error en estado permanente (e&#8734;)</h6>
+
+<p class=MsoNormal>(<b><i>Permanent error</i></b>): Este término es un poco más
+general y puede referirse a cualquier error que persiste indefinidamente en el
+tiempo, independientemente de si el sistema ha alcanzado un estado estacionario
+o no.</p>
+
+<p class=MsoNormal>En la práctica, en el contexto de sistemas de control
+lineales e invariantes en el tiempo (LTI), el <b>error en estado permanente</b>
+generalmente coincide con el <b>error en estado estacionario</b>.</p>
+
+<p class=MsoNormal>El concepto de error en estado permanente, aunque
+estrechamente relacionado con el error en régimen permanente, posee un carácter
+más general. Se refiere a cualquier discrepancia persistente entre la señal de
+referencia y la salida del sistema que no desaparece con el tiempo,
+independientemente de si el sistema alcanza un estado estacionario clásico.
+Este enfoque permite abordar escenarios más amplios, como aquellos en los que
+el sistema no converge a un punto fijo debido a condiciones externas cambiantes
+o a dinámicas internas no modeladas.</p>
+
+<p class=MsoNormal>En sistemas LTI ideales, y en ausencia de perturbaciones,
+ambos conceptos tienden a coincidir. Sin embargo, cuando se consideran sistemas
+con dinámicas no lineales, estructuras variantes en el tiempo, perturbaciones
+exógenas continuas o errores de modelado, esta equivalencia se rompe. </p>
+
+<p class=MsoNormal>Por ejemplo, un sistema que opera en un entorno industrial
+donde las condiciones de carga y los parámetros del sistema cambian con el
+tiempo puede presentar errores que persisten indefinidamente, no por fallas en
+el diseño del controlador, sino por limitaciones estructurales o por la
+imposibilidad de compensar todas las perturbaciones.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=663 height=214 src="index_archivos/image870.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=585 height=232 src="index_archivos/image871.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Función de transferencia de lazo abierto en su forma
+general</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=665 height=373 src="index_archivos/image872.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=665 height=328 src="index_archivos/image873.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoHeading7>Deducción del error por diagrama de bloques y teorema del
+valor final</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Este tipo de error debe ser
+abordado mediante técnicas avanzadas, como el control adaptativo, observadores
+de estados no medidos, estrategias de robustez, o incluso inteligencia
+artificial en el lazo de control, dependiendo de la criticidad del sistema y el
+entorno operativo.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=616 height=505 src="index_archivos/image874.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=633 height=281 src="index_archivos/image875.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Tipos de Entradas y Respuestas </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=282 src="index_archivos/image876.png"
+alt="Diagrama, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Es decir que: </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=357 src="index_archivos/image877.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=545 height=195 src="index_archivos/image878.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>En resumen:</p>
+
+<p class=MsoNormal><img border=0 width=659 height=400
+src="index_archivos/image879.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal><img border=0 width=661 height=399
+src="index_archivos/image880.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=665 height=431 src="index_archivos/image881.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=665 height=290 src="index_archivos/image882.png"
+alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=645 height=137 src="index_archivos/image883.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=630 height=251 src="index_archivos/image884.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=653 height=345 src="index_archivos/image885.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=648 height=205 src="index_archivos/image886.png"
+alt="Gráfico, Gráfico de líneas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><b>Resumen Total</b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=669 height=374 src="index_archivos/image887.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><b>Ejemplos:</b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=417 src="index_archivos/image888.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=388 src="index_archivos/image889.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>Relevancia en la Síntesis y Evaluación de Sistemas de
+Control</p>
+
+<p class=MsoNormal>La minimización del error en estado estacionario es uno de
+los objetivos fundamentales en la ingeniería de control, particularmente en
+aplicaciones donde se exige alta precisión y confiabilidad. Las metodologías de
+diseño de controladores suelen incorporar explícitamente criterios para
+garantizar una reducción adecuada de dicho error, especialmente cuando se trata
+de sistemas de regulación fina o de seguimiento de trayectorias.</p>
+
+<p class=MsoNormal>Entre las estrategias más efectivas y recurrentes se
+encuentran:</p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>El incremento de la ganancia de lazo, que si bien mejora el
+desempeño estacionario, también puede reducir los márgenes de estabilidad, por
+lo cual requiere un diseño cuidadoso.</p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>La adición de integradores al sistema, lo que transforma su tipo
+y mejora su capacidad para eliminar errores constantes o crecientes.</p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:21.3pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>La implementación de estructuras de control correctivo como los
+controladores PI, PD o PID, ampliamente utilizados por su versatilidad y
+capacidad de ajuste mediante técnicas como el <b>método de</b> <b>Ziegler-Nichols</b>
+u optimización en el dominio de la frecuencia.</p>
+
+<p class=MsoNormal>El conocimiento detallado de las constantes estáticas <b><i>K<sub>p</sub></i></b>,
+<b><i>K<sub>v</sub></i></b>, y <b><i>K<sub>a</sub></i></b> así como su
+dependencia respecto a los parámetros del sistema, permite a los ingenieros de
+control prever el comportamiento ante diversas condiciones de entrada y tomar
+decisiones de diseño informadas. Este análisis es especialmente relevante en
+sistemas donde el error no solo compromete la precisión, sino también la
+seguridad, como en aeronáutica, medicina, automatización crítica y sistemas de
+energía.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
 
 <h3 style='margin-left:21.3pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span>Análisis de estabilidad.</h3>
@@ -30338,13 +31083,551 @@ permanente generalmente coincide con el error en estado estacionario.</p>
 </span><span style='color:black'>Técnicas de análisis de estabilidad: criterio
 de Routh-Hurwitz, lugar geométrico de las raíces.</span></h4>
 
+<h5><span style='text-transform:none'>UBICACIÓN DE POLOS</span></h5>
+
+<p class=MsoNormal>En los sistemas dinámicos lineales invariantes en el tiempo
+(LTI), particularmente en aquellos estructurados con retroalimentación
+negativa, la evaluación de la estabilidad constituye una preocupación
+fundamental. Esta evaluación depende críticamente de la localización de los
+polos del sistema en el plano complejo, los cuales son las raíces del polinomio
+característico asociado al sistema de lazo cerrado.</p>
+
+<p class=MsoNormal>La estabilidad, en este contexto, se define como la
+propiedad del sistema de producir una salida acotada para cualquier entrada
+acotada (BIBO, por sus siglas en inglés), lo cual sólo es posible si todos los
+polos están ubicados estrictamente en el semiplano izquierdo del plano , es
+decir, con parte real negativa.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=636 height=501 src="index_archivos/image890.png"
+alt="Escala de tiempo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>La localización de un <b>polo</b> en el <b>eje imaginario
+puro</b>, si bien puede parecer neutra, puede <b>inducir oscilaciones</b>
+sostenidas, generando condiciones de <b>estabilidad marginal</b>. Por otro
+lado, la presencia de cualquier <b>polo</b> con <b>parte real positiva</b>
+implica divergencia exponencial en la respuesta temporal del sistema, lo cual
+resulta en <b>inestabilidad</b>. Adicionalmente, la cercanía de los polos al
+eje imaginario, incluso si están en el semiplano izquierdo, puede dar lugar a
+sistemas con respuesta lenta o con escaso amortiguamiento, afectando su
+desempeño dinámico. </p>
+
+<h6>Criterio de Estabilidad de Newton</h6>
+
+<p class=MsoNormal>El <b>Criterio de Newton</b> ofrece una aproximación
+algorítmica al estudio de la estabilidad de un sistema a través del análisis de
+los coeficientes del polinomio característico. Este método, menos difundido que
+los de Routh o Hurwitz, se basa en un procedimiento sistemático de construcción
+de determinantes formados con dichos coeficientes y sus derivadas. La premisa
+fundamental consiste en identificar variaciones de signo entre términos
+sucesivos de la secuencia obtenida, ya que estas variaciones permiten deducir
+la existencia de raíces con parte real positiva, es decir, inestables.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Sea una función de transferencia
+propia</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=544 height=99 src="index_archivos/image891.png"
+alt="Imagen que contiene Forma&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Con una ecuación característica</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=409 height=44 src="index_archivos/image892.png"></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><i>Si
+todos los coeficientes de la ecuación característica tienen el mismo signo, entonces
+el sistema <b>puede</b> ser estable. Si existen diferencias en los signos de los
+coeficientes, entonces se puede decir que el sistema <b>no es estable</b>.</i></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=479 height=53 src="index_archivos/image893.png"></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=213 height=51 src="index_archivos/image894.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal><img border=0 width=665 height=380
+src="index_archivos/image895.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>A pesar de su relativa marginalidad en la práctica
+industrial moderna, este criterio posee un valor didáctico considerable. </p>
+
+<p class=MsoNormal>Su formulación rigurosa lo convierte en una herramienta
+valiosa en contextos académicos donde se requiere comprender en profundidad la
+interacción entre las propiedades algebraicas de los polinomios y el
+comportamiento dinámico de los sistemas físicos. </p>
+
+<p class=MsoNormal>Asimismo, su estructura permite aplicaciones computacionales
+específicas, especialmente cuando se desea realizar un análisis preliminar sin
+necesidad de recurrir a la factorización explícita del polinomio
+característico.</p>
+
+<h5>CRITERIO DE ROUTH – HURWITZ</h5>
+
+<p class=MsoNormal>El <b><i><span style='color:#00B0F0'>Criterio de
+Routh-Hurwitz</span></i></b><span style='color:#00B0F0'> </span>representa una
+evolución práctica y computacionalmente eficiente del <b><i>Criterio de Hurwitz</i></b>.
+</p>
+
+<p class=MsoNormal>En lugar de recurrir a determinantes explícitos, se emplea
+un procedimiento tabular la <b><i>Tabla o Arreglo de Routh</i></b> que organiza
+los coeficientes del polinomio característico en un esquema recursivo. </p>
+
+<p class=MsoNormal align=center style='text-align:center'><i>La estabilidad del
+sistema se evalúa observando la primera columna de dicha tabla: si no hay
+cambios de signo, el sistema es estable; cada cambio de signo representa una
+raíz con parte real positiva.</i></p>
+
+<p class=MsoNormal>La eficiencia de este criterio lo convierte en una
+herramienta esencial en la ingeniería de control, especialmente en etapas
+tempranas de diseño donde se requiere verificar la estabilidad de múltiples
+configuraciones de control. Asimismo, el criterio se adapta fácilmente al
+análisis simbólico y permite estudiar la estabilidad paramétrica, es decir,
+determinar rangos de valores de parámetros (como la ganancia <b><i>K</i></b>)
+que aseguren estabilidad.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Considere que la ecuación característica
+de un sistema lineal e invariable con el tiempo es de la forma: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=420 height=22 src="index_archivos/image896.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>En donde todos los coeficientes
+son reales. Para que la ecuación no tenga raíces con parte reales positivas, es
+necesario u suficiente que las siguientes condiciones se cumplan: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=484 height=48 src="index_archivos/image897.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Estas condiciones están basadas en
+las leyes del algebra, que relacionan los coeficientes de la ecuación como: </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=528
+height=294 src="index_archivos/image898.png"
+alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Por lo que todas estas relaciones deben ser positivas y no
+cero a menos que una de las raíces tenga una parte real positiva.</p>
+
+<p class=MsoNormal>La <b><i>Tabla de Routh</i></b> se construye organizando los
+coeficientes en las dos primeras filas, alternando los coeficientes pares e
+impares. Las filas subsiguientes se calculan de forma recursiva a través de
+expresiones racionales que dependen de los valores de las filas anteriores.</p>
+
+<p class=MsoNormal>En caso de que aparezca un cero en la primera columna, se
+recurre a sustituciones simbólicas o se perturba el sistema de manera
+artificial para evitar ambigüedades y continuar el proceso.</p>
+
+<p class=MsoNormal>Este esquema tabular no solo permite determinar la
+estabilidad, sino que también facilita la detección de condiciones límite de
+estabilidad y bifurcaciones en la respuesta del sistema. </p>
+
+<p class=MsoNormal>La estructura de la tabla está íntimamente relacionada con
+la dinámica del sistema y puede ser utilizada para explorar la estabilidad
+relativa, es decir, no solo si el sistema es estable, sino cuán lejos o cerca
+está del umbral de inestabilidad.</p>
+
+<h6>Criterio de Hurwitz</h6>
+
+<p class=MsoNormal>El <b><i>Criterio de Hurwitz</i></b> es una herramienta
+teórica robusta que permite establecer condiciones necesarias y suficientes
+para que un sistema sea estable. </p>
+
+<p class=MsoNormal>Consiste en la construcción de una matriz cuadrada denominada
+matriz de Hurwitz a partir de los coeficientes del polinomio característico. </p>
+
+<p class=MsoNormal>Esta matriz posee una estructura específica y sus menores
+principales, es decir, los determinantes de sus submatrices principales, deben
+ser estrictamente positivos para que se garantice la estabilidad del sistema.</p>
+
+<p class=MsoNormal>El <b><i>Criterio de Routh-Hurwitz</i></b> está basado en el
+<i>Criterio de Hurwitz</i>, que se enuncia como: </p>
+
+<p class=MsoNormal align=center style='text-align:center'><i>La condición
+necesaria y suficiente para que todas las raíces de la ecuación estén en el
+semiplano izquierdo del plano s es que los <b>determinantes de Hurwitz</b> de
+la ecuación, <b>D<sub>k</sub></b>, <b>k = 1, 2, . . . , n</b>, sean todos
+positivos</i>.</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=420 height=22 src="index_archivos/image899.png"></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Los <i>determinantes de Hurwitz</i>
+de la ecuación están dados por</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=659 height=289 src="index_archivos/image900.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'>En donde los
+coeficientes con índices mayores que <b><i>n</i></b> o negativos deben
+remplazarse con ceros.</p>
+
+<p class=MsoNormal>Este método es particularmente útil para polinomios de orden
+elevado, ya que permite una verificación puramente algebraica de la estabilidad
+sin necesidad de calcular las raíces del polinomio, tarea que puede resultar
+computacionalmente costosa y numéricamente inestable en sistemas de alto orden.
+</p>
+
+<p class=MsoNormal>Su utilidad se extiende más allá del análisis cualitativo,
+pues también ofrece indicios sobre la sensibilidad del sistema a perturbaciones
+en los parámetros. Es comúnmente empleado en el desarrollo de métodos de diseño
+de control robusto, donde se requiere verificar la estabilidad en presencia de
+incertidumbres.</p>
+
+<p class=MsoNormal>A primera vista, la aplicación de los determinantes de
+Hurwitz puede parecer demasiado pesada para ecuaciones de orden superior,
+debido a la cantidad de trabajo involucrado en la evaluación de los
+determinantes de la ecuación. Afortunadamente, <b>Routh</b> simplificó el
+proceso introduciendo un método de <b>tabulación</b> en lugar de los
+determinantes de Hurwitz.</p>
+
+<h6>Arreglo de Routh</h6>
+
+<p class=MsoNormal>La <b><i>Tabla de Routh</i></b> se construye organizando los
+coeficientes en las dos primeras filas, alternando los coeficientes pares e
+impares. </p>
+
+<p class=MsoNormal>En la <b><i>Simplificación del Criterio de Hurwitz</i></b>,
+ahora llamado el <b><i>Criterio de Routh-Hurwitz</i></b>, se inicia por
+arreglar los coeficientes de la ecuación en la ecuación en dos renglones. </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>El primer renglón consiste en el
+primer, tercer, quinto, ..., coeficientes, y el segundo consiste en el segundo,
+cuarto, sexto, ..., coeficientes, todos contados desde el término de orden más
+alto, como se muestra en la siguiente tabulación:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=284 height=63 src="index_archivos/image901.png"
+alt="Imagen que contiene objeto, reloj, competencia de atletismo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Para un polinomio característico
+de la forma:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=420 height=22 src="index_archivos/image902.png"></p>
+
+<p class=MsoNormal>donde los coeficientes son cantidades reales. Se supone que
+a<sub>n</sub> = 0; es decir, se elimina cualquier raíz cero.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Si todos los coeficientes son
+positivos, se ordenan los coeficientes del polinomio en filas y columnas de
+acuerdo con el patrón siguiente:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=214 height=313 src="index_archivos/image903.png"
+alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>&nbsp;</p>
+
+<p class=MsoNormal>El arreglo anterior se conoce como <b><i>tabulación de Routh</i></b>
+o <b><i>arreglo de Routh</i></b>. La columna de las <b><i>S</i></b> en el lado izquierdo
+se utiliza para propósitos de identificación. La columna de referencia mantiene
+el rastro de los cálculos, y el último renglón de la tabulación de Routh debe
+ser siempre el renglón <b><i>s<sup>0</sup></i></b>.</p>
+
+<p class=MsoNormal>Las filas subsiguientes se calculan de forma recursiva a
+través de expresiones racionales que dependen de los valores de las filas
+anteriores. En caso de que aparezca un cero en la primera columna, se recurre a
+sustituciones simbólicas o se perturba el sistema de manera artificial para
+evitar ambigüedades y continuar el proceso.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>El proceso de formar filas
+continúa hasta que no quedan más elementos. (El número total de filas es <b><i>n
++ 1</i></b>.) Los coeficientes <i>b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub></i>,
+etc., se evalúan del modo siguiente:</p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=171 height=314 src="index_archivos/image904.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>La evaluación de las <i>b</i> continúa hasta que todas las
+restantes son cero. Se sigue el mismo patrón de multiplicación cruzada de los
+coeficientes de las dos filas anteriores al evaluar las <i>c</i>, las <i>d</i>,
+las <i>e</i>, etc. Es decir,</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=176 height=237 src="index_archivos/image905.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."><img
+border=0 width=169 height=213 src="index_archivos/image906.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i>Este proceso
+continúa hasta que se completa la n-ésima fila. El arreglo completo de los coeficientes
+es triangular.</i></p>
+
+<p class=MsoNormal>Una vez que la <b><i>tabulación de Routh</i></b> se ha
+completado, el último paso en la aplicación del criterio es investigar los
+signos de los coeficientes de la primera columna de la tabulación, que contiene
+información sobre las raíces de la ecuación. Se hacen las siguientes conclusiones:
+</p>
+
+<p class=MsoNormal><i>Las raíces de la ecuación están todas en el semiplano
+izquierdo del plano s si todos los elementos de la primera columna de la
+tabulación de Routh son del mismo signo. </i></p>
+
+<p class=MsoNormal><i>El número de cambios de signos en los elementos de la
+primera columna es igual al número de raíces con partes reales positivas o en
+el semiplano derecho del plano s</i>.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>La razón para la conclusión
+anterior es simple, basada en los requerimientos de los determinantes de
+Hurwitz. Las relaciones entre los elementos en la primera columna de la
+tabulación de Routh y los determinantes de Hurwitz son:</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=209 height=506 src="index_archivos/image907.png"
+alt="Calendario&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Este esquema tabular no solo permite determinar la
+estabilidad, sino que también facilita la detección de condiciones límite de
+estabilidad y bifurcaciones en la respuesta del sistema. </p>
+
+<p class=MsoNormal>La estructura de la tabla está íntimamente relacionada con
+la dinámica del sistema y puede ser utilizada para explorar la estabilidad
+relativa, es decir, no solo si el sistema es estable, sino cuán lejos o cerca
+está del umbral de inestabilidad.</p>
+
+<h6>Criterio de Estabilidad De Routh – Hurwitz</h6>
+
+<p class=MsoNormal>La utilidad práctica del <b><i>Criterio de Routh-Hurwitz</i></b>
+reside en su capacidad para ofrecer una evaluación rápida y precisa de la
+estabilidad, sin requerir cálculos intensivos o representaciones gráficas
+complejas. </p>
+
+<p class=MsoNormal>Su interpretación es directa: cada transición de signo en la
+primera columna corresponde a una raíz del polinomio característico ubicada en
+el semiplano derecho del plano, lo cual implica inestabilidad. </p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Paso 1: Con base en los
+coeficientes de la ecuación característica, se genera la siguiente tabla: </p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=605 height=427 src="index_archivos/image908.png"
+alt="Imagen de la pantalla de un celular con letras&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Donde:</p>
+
+<p class=MsoNormal><img border=0 width=665 height=273
+src="index_archivos/image909.png"
+alt="Una captura de pantalla de un celular&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Paso 2: Se revisa la primer
+columna de la tabla completamente terminada en <b>orden estrictamente
+descendente o ascendente</b>. Si no se encuentran cambios de signo en los
+valores involucrados, entonces se puede asegurar que el sistema es estable. Si
+se encuentra un <b>número N</b> de cambios de signo, se puede concluir que el
+sistema es inestable y que <b>tiene N polos</b> con parte real positiva.</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=524 height=367 src="index_archivos/image910.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal>Esta información puede ser utilizada no solo para
+diagnóstico, sino también como guía para el diseño y ajuste de controladores.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Además, este criterio es
+fundamental para analizar la robustez del sistema, ya que pequeñas variaciones
+en los coeficientes pueden modificar la estructura de la tabla y revelar
+sensibilidad a perturbaciones. Por ello, su aplicación no se limita a sistemas
+nominales, sino que se extiende a sistemas inciertos, sistemas adaptativos y
+modelos con parámetros dependientes del tiempo.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=635 height=436 src="index_archivos/image911.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=644 height=436 src="index_archivos/image912.png"
+alt="Imagen que contiene Aplicación&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=409 src="index_archivos/image913.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=662 height=458 src="index_archivos/image914.png"
+alt="Imagen que contiene Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=455 src="index_archivos/image915.png"
+alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=603 height=417 src="index_archivos/image916.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=665 height=459 src="index_archivos/image917.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=589 height=415 src="index_archivos/image918.png"
+alt="Imagen que contiene Interfaz de usuario gráfica&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoHeading7>EJEMPLO</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665
+height=430 src="index_archivos/image919.png"
+alt="Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=609 height=423 src="index_archivos/image920.png"
+alt="Imagen de la pantalla de un celular con letras&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
+border=0 width=605 height=464 src="index_archivos/image921.png"
+alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=545 height=411 src="index_archivos/image922.png"
+alt="Texto, Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<p class=MsoNormal align=center style='text-align:center'><img border=0
+width=649 height=485 src="index_archivos/image923.png"
+alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
+
+<h6>Casos especiales – Cuando la tabulación de Routh termina prematuramente </h6>
+
 <p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h5>LUGAR GEOMÉTRICO DE LAS RAÍCES (ROOT – LOCUS)</h5>
+
+<p class=MsoNormal>El método del lugar geométrico de las raíces —o Root Locus—
+es una técnica gráfica que permite estudiar el comportamiento de los polos del
+sistema de lazo cerrado en función de un parámetro, típicamente la ganancia .
+Este método proporciona una visión intuitiva y detallada de cómo la variación
+del parámetro afecta la ubicación de los polos, y por ende, la estabilidad y el
+desempeño dinámico del sistema.</p>
+
+<p class=MsoNormal>La ecuación característica se expresa como:</p>
+
+<p class=MsoNormal>Lo cual impone dos condiciones sobre el punto en el plano
+complejo:</p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>(condición de magnitud)</li>
+ <li class=MsoNormal>(condición de ángulo)</li>
+</ul>
+
+<p class=MsoNormal>La representación de la función de lazo abierto como una
+fracción racional:</p>
+
+<p class=MsoNormal>permite calcular la contribución angular de cada polo y cero
+a un punto arbitrario en el plano . Al variar , los polos del sistema de lazo
+cerrado se desplazan sobre trayectorias conocidas como ramas del lugar de las
+raíces. Estas ramas inician en los polos de lazo abierto cuando y, conforme ,
+terminan en los ceros de lazo abierto o en el infinito si hay menos ceros que
+polos.</p>
+
+<p class=MsoNormal>Esta técnica es especialmente útil en el diseño de
+controladores tipo PID y de compensadores en adelanto o atraso, donde se desea
+ubicar los polos de lazo cerrado en posiciones específicas para lograr
+determinadas especificaciones de desempeño. Además, permite visualizar
+directamente la aparición de inestabilidades, oscilaciones o sobreimpulsos no
+deseados.</p>
 
 <h4 style='margin-left:35.45pt;text-indent:-21.25pt'>3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span><span style='color:black'>Criterios de estabilidad en la frecuencia:
 diagramas de Bode, diagrama de Nyquist.</span></h4>
 
+<h5><span style='text-transform:none'>DIAGRAMAS DE BODE</span></h5>
+
+<p class=MsoNormal>Los diagramas de Bode son representaciones gráficas
+logarítmicas ampliamente utilizadas para analizar la respuesta en frecuencia de
+sistemas LTI. La técnica consiste en descomponer la función de transferencia en
+una suma de términos elementales y graficar dos curvas: una que representa la
+magnitud (en decibelios) y otra que muestra la fase (en grados), ambas en
+función de la frecuencia angular en escala logarítmica.</p>
+
+<p class=MsoNormal>Esta representación permite una interpretación clara de cómo
+los polos, ceros y retardos afectan la respuesta del sistema, y facilita la
+estimación de la ganancia y del margen de fase, dos indicadores fundamentales
+para la estabilidad robusta. En particular:</p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>El <b>margen de ganancia</b> cuantifica cuánto puede
+     incrementarse la ganancia total del sistema antes de que se produzca
+     inestabilidad, medido en decibelios.</li>
+ <li class=MsoNormal>El <b>margen de fase</b> indica cuánto puede disminuir la
+     fase total del sistema antes de que la ganancia unitaria conduzca a una
+     fase de -180°, condición que induce oscilaciones sostenidas.</li>
+</ul>
+
+<p class=MsoNormal>Ambos márgenes se evalúan alrededor de las frecuencias de
+cruce respectivas (de ganancia y de fase). Esta técnica es esencial en el
+diseño de compensadores y filtros, permitiendo mejorar la robustez y el
+desempeño sin comprometer la estabilidad global del sistema.</p>
+
 <p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h5><span style='text-transform:none'>DIAGRAMA DE NYQUIST</span></h5>
+
+<p class=MsoNormal>El diagrama de Nyquist es una herramienta gráfica
+fundamental en la teoría de control, especialmente útil para estudiar la
+estabilidad en sistemas con retardos o dinámicas complejas. La técnica consiste
+en representar la función de transferencia de lazo abierto evaluada en el eje
+imaginario, es decir, , como una curva en el plano complejo. Esta curva se
+construye a medida que varía de 0 a &#8734;, y puede extenderse al eje negativo
+para sistemas con simetría.</p>
+
+<p class=MsoNormal>El teorema de Nyquist relaciona el número de encierros del
+punto crítico (-1, 0) con el número de polos de lazo abierto ubicados en el
+semiplano derecho. Si el número neto de encierros coincide con el número de
+dichos polos, entonces el sistema en lazo cerrado es estable. De lo contrario,
+el sistema presenta uno o más polos inestables. Esta técnica permite analizar
+estabilidad absoluta y relativa, así como detectar resonancias y efectos de
+acoplamiento dinámico no deseado.</p>
+
+<h5>LYAPUNOV</h5>
+
+<p class=MsoNormal>El método de Lyapunov constituye una de las herramientas más
+generales y poderosas en el análisis de estabilidad, especialmente en el
+contexto de sistemas no lineales. Su enfoque se basa en construir una función
+escalar , llamada función de Lyapunov, que actúa como una medida generalizada
+de energía o distancia respecto al equilibrio. Para que un sistema sea estable,
+esta función debe ser positiva definida en un entorno del equilibrio, y su
+derivada temporal debe ser negativa definida:</p>
+
+<p class=MsoNormal>Este enfoque no requiere resolver explícitamente las
+ecuaciones diferenciales del sistema, lo que lo convierte en una herramienta
+indispensable para modelos donde la solución analítica es inviable. Además,
+permite establecer condiciones suficientes para estabilidad global, estabilidad
+exponencial, y delimitar dominios de atracción. Se aplica extensamente en el
+análisis de sistemas biológicos, mecánicos, eléctricos y económicos, así como
+en el diseño de leyes de control no lineales.</p>
+
+<h6>Teoría de Estabilidad </h6>
+
+<h6>Método de Lyapunov</h6>
 
 <h3 style='margin-left:21.3pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span>Diseño de controladores con base en la función de transferencia.</h3>
@@ -30388,15 +31671,23 @@ margin-bottom:.0001pt'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 
 <p class=MsoNormal>OGATA, Katsuhiko - Ingeniería de control moderna.</p>
 
+<p class=MsoNormal>KUO, Benjamin, GOLNARAGHI, Farid Automatic Control Systems</p>
+
 <p class=MsoNormal style='margin-top:12.0pt'><a
 href="https://youtu.be/nF_748YmLWs?si=qfCm1xxQbVDYuzca">https://youtu.be/nF_748YmLWs?si=qfCm1xxQbVDYuzca</a>
 </p>
 
-<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+<p class=MsoNormal style='margin-top:12.0pt'><a
+href="https://youtu.be/YhJF1v5cEfw?si=iyQL2jBlG_F1F-3z">https://youtu.be/YhJF1v5cEfw?si=iyQL2jBlG_F1F-3z</a>
+</p>
 
-<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+<p class=MsoNormal style='margin-top:12.0pt'><a
+href="https://youtu.be/knOhUOzcemo?si=PKE2MIrph6n3JVRS">https://youtu.be/knOhUOzcemo?si=PKE2MIrph6n3JVRS</a>
+</p>
 
-<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+<p class=MsoNormal style='margin-top:12.0pt'><a
+href="https://youtu.be/nXf_II4Kbi0?si=ISxWkNaeGApYcOTy">https://youtu.be/nXf_II4Kbi0?si=ISxWkNaeGApYcOTy</a>
+</p>
 
 <p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
 
@@ -36903,6 +38194,22 @@ FERNANDO - Cómo crear y hacer funcionar una empresa.</p>
 
 <p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
 
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:12.0pt'>&nbsp;</p>
+
 <h1>NOVENO SEMESTRE</h1>
 
 <h2><span class=Ttulo2Car><span style='color:#459EC4'>DISEÑO MECATRÓNICO </span></span>(0563)</h2>
@@ -36999,7 +38306,7 @@ de manera coordinada e interdependiente las disciplinas de ingeniería mecánica
 electrónica y control inteligente por computadora.</i></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=570 height=569 src="index_archivos/image793.png"></p>
+width=570 height=569 src="index_archivos/image924.png"></p>
 
 <h5><span style='text-transform:none'>CARACTERÍSTICAS FUNDAMENTALES</span></h5>
 
@@ -37935,11 +39242,11 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 estrés para garantizar la robustez del sistema en condiciones reales&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=509 height=243 src="index_archivos/image794.png"
+border=0 width=509 height=243 src="index_archivos/image925.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=500 height=302 src="index_archivos/image795.png"
+border=0 width=500 height=302 src="index_archivos/image926.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>INTERFACES DE COMUNICACIÓN ENTRE
@@ -38345,7 +39652,7 @@ la identificación del problema hasta la implementación de soluciones viables y
 centradas en el usuario.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=654 height=356 id="Imagen 4" src="index_archivos/image796.jpg"
+border=0 width=654 height=356 id="Imagen 4" src="index_archivos/image927.jpg"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>El <b><i><span style='color:#00B0F0'>proceso del Doble
@@ -38452,7 +39759,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 entregables documentales extensos.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=550 height=323 id="Imagen 6" src="index_archivos/image797.jpg"></p>
+border=0 width=550 height=323 id="Imagen 6" src="index_archivos/image928.jpg"></p>
 
 <p class=MsoNormal>El proceso de Lean UX se estructura en cuatro fases
 principales que conforman un ciclo iterativo de mejora continua: </p>
@@ -38514,7 +39821,7 @@ plataformas que ayudan a planificar, organizar y gestionar proyectos de forma
 eficiente.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=662 height=198 id="Imagen 8" src="index_archivos/image798.jpg"></p>
+border=0 width=662 height=198 id="Imagen 8" src="index_archivos/image929.jpg"></p>
 
 <p class=MsoNormal><b><i><span style='color:#00B0F0'>SCRUM</span></i></b>, por
 su parte, es un marco ágil de trabajo formalizado en la década de los 90,
@@ -38566,7 +39873,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 donde el equipo analiza su forma de trabajo para mejorar en futuros sprints.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=645 height=280 id="Imagen 10" src="index_archivos/image799.jpg"></p>
+border=0 width=645 height=280 id="Imagen 10" src="index_archivos/image930.jpg"></p>
 
 <p class=MsoNormal><b><i><span style='color:#00B0F0'>KANBAN</span></i></b>,
 originado en los años 40 dentro de las fábricas de Toyota aunque comenzó a
@@ -38580,7 +39887,7 @@ hacer&quot;, &quot;En desarrollo&quot;, &quot;Revisión&quot; y
 &quot;Aprobación&quot;. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=437 height=361 id="Imagen 11" src="index_archivos/image800.jpg"
+border=0 width=437 height=361 id="Imagen 11" src="index_archivos/image931.jpg"
 alt="Interfaz de usuario gráfica&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Las herramientas Kanban son esenciales para mantener una
@@ -38589,17 +39896,17 @@ diversidad de opciones disponibles puede dificultar la selección de la más
 adecuada para necesidades específicas del equipo. Entre las plataformas más
 destacadas que implementan Kanban se encuentran: </p>
 
-<p class=MsoNormal><img width=64 height=1 src="index_archivos/image801.jpg"
+<p class=MsoNormal><img width=64 height=1 src="index_archivos/image932.jpg"
 align=left hspace=12
 alt="Texto, Icono&#10;&#10;El contenido generado por IA puede ser incorrecto."><b><i>Notion</i></b>:
 una plataforma todo en uno que combina notas, bases de datos y tableros Kanban,
 permitiendo organizar el trabajo con plantillas o bases de datos interactivas,
 ideal para individuos o equipos que buscan una solución personalizable.</p>
 
-<p class=MsoNormal><img width=128 height=1 src="index_archivos/image802.jpg"
+<p class=MsoNormal><img width=128 height=1 src="index_archivos/image933.jpg"
 align=left hspace=12
 alt="Logotipo&#10;&#10;El contenido generado por IA puede ser incorrecto."><img
-width=83 height=1 src="index_archivos/image803.jpg" align=left hspace=12
+width=83 height=1 src="index_archivos/image934.jpg" align=left hspace=12
 alt="Logotipo, nombre de la empresa&#10;&#10;El contenido generado por IA puede ser incorrecto."><b><i>Asana</i></b>:
 diseñada para la gestión de proyectos y trabajo en equipo, que permite
 planificar, rastrear y automatizar tareas, ofreciendo tableros visuales, flujos
@@ -38616,7 +39923,7 @@ organizar tareas, intuitiva y fácil de usar, ideal para equipos pequeños,
 freelancers o uso personal.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=84 height=85 src="index_archivos/image804.jpg"
+width=84 height=85 src="index_archivos/image935.jpg"
 alt="Dibujo con letras blancas&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>SIX SIGMA: OPTIMIZACIÓN Y EFICIENCIA </h6>
@@ -38724,7 +40031,7 @@ Diseñar, Verificar), que sigue un enfoque estructurado para garantizar la
 calidad desde el inicio del proceso de desarrollo.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=623 height=411 id="Imagen 12" src="index_archivos/image805.jpg"
+width=623 height=411 id="Imagen 12" src="index_archivos/image936.jpg"
 alt="Six sigma: todo lo que debes saber para aplicarla"></p>
 
 <h6>DISEÑO PARTICIPATIVO</h6>
@@ -39165,7 +40472,7 @@ de fácil implementación. </p>
 de parámetros preestablecidos y no considera posibles variaciones externas.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=659 height=138 src="index_archivos/image806.png"
+border=0 width=659 height=138 src="index_archivos/image937.png"
 alt="Interfaz de usuario gráfica&#10;&#10;Descripción generada automáticamente con confianza baja"></p>
 
 <p class=MsoNoSpacing><b><i>Características</i></b></p>
@@ -39209,7 +40516,7 @@ capacidad de respuesta ante cambios lo hacen esencial en aplicaciones
 críticas&#8203;&#8203;.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=661 height=251 src="index_archivos/image807.png"
+width=661 height=251 src="index_archivos/image938.png"
 alt="Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <h6>Control de lazo cerrado analógico</h6>
@@ -39220,7 +40527,7 @@ variable controlada. El control PID, está compuesto por un control
 proporcional, integral y derivativo.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=659 height=217 src="index_archivos/image808.png"
+border=0 width=659 height=217 src="index_archivos/image939.png"
 alt="Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <p class=MsoNoSpacing><b><i>Características</i></b></p>
@@ -39266,7 +40573,7 @@ el desgaste por la frecuencia de activación/desactivación, especialmente en
 sistemas de alta velocidad o con variaciones rápidas&#8203;&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=383 height=220 src="index_archivos/image809.png"
+border=0 width=383 height=220 src="index_archivos/image940.png"
 alt="Imagen que contiene Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <p class=MsoNoSpacing><b><i>Características</i></b></p>
@@ -39312,17 +40619,17 @@ usada para ajustar al proceso por medio de un elemento de control como la
 posición de la válvula de control o la potencia suministrada a un calentador. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=654 height=436 src="index_archivos/image810.png"></p>
+border=0 width=654 height=436 src="index_archivos/image941.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=419 height=55 src="index_archivos/image811.png"></p>
+border=0 width=419 height=55 src="index_archivos/image942.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>El control PID es ampliamente
 utilizado en la industria debido a su capacidad para mantener la estabilidad y
 precisión en procesos dinámicos.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=626 height=266 src="index_archivos/image812.png"
+border=0 width=626 height=266 src="index_archivos/image943.png"
 alt="Gráfico, Gráfico de líneas&#10;&#10;Descripción generada automáticamente"></p>
 
 <h5>CONTROL BASADO EN TIEMPOS Y EVENTOS:</h5>
@@ -39386,7 +40693,7 @@ automotriz. Su principal limitación es la falta de flexibilidad, ya que el
 diseño es costoso y difícil de adaptar a nuevos productos&#8203;.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=663 height=278 src="index_archivos/image813.png"
+width=663 height=278 src="index_archivos/image944.png"
 alt="Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <h5>SISTEMAS DE AUTOMATIZACIÓN PROGRAMABLE</h5>
@@ -39399,7 +40706,7 @@ numérico computarizado), que pueden ser reprogramados para nuevos procesos,
 ofreciendo flexibilidad a un costo razonable&#8203;&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=213 src="index_archivos/image814.png"
+border=0 width=665 height=213 src="index_archivos/image945.png"
 alt="Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <h5>SISTEMAS DE AUTOMATIZACIÓN FLEXIBLE</h5>
@@ -39412,7 +40719,7 @@ Combina flexibilidad y eficiencia, siendo ideal para industrias con alta
 personalización de productos&#8203;&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=640 height=321 src="index_archivos/image815.png"
+border=0 width=640 height=321 src="index_archivos/image946.png"
 alt="Diagrama&#10;&#10;Descripción generada automáticamente"></p>
 
 <p class=MsoNormal>Algunas características de la automatización flexible son:</p>
@@ -39559,7 +40866,7 @@ temperatura, como un termopar, detecta la temperatura y genera una señal
 eléctrica directamente interpretable&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=309 height=216 src="index_archivos/image816.png"
+border=0 width=309 height=216 src="index_archivos/image947.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h4 style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:35.45pt;
@@ -39970,7 +41277,7 @@ similar a Pascal o C. Ideal para expresiones complejas.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:21.3pt;text-indent:-18.0pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><img width=419 height=1 src="index_archivos/image817.jpg"
+</span></span><img width=419 height=1 src="index_archivos/image948.jpg"
 align=left hspace=12
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."><b><i>IL
 (Instruction List):</i></b> Similar al ensamblador (obsoleto en versiones
@@ -40607,11 +41914,11 @@ generar y suministrar aire comprimido para alimentar distintos equipos y
 herramientas. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=657 height=287 src="index_archivos/image818.jpg"
+border=0 width=657 height=287 src="index_archivos/image949.jpg"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=553 height=343 src="index_archivos/image819.png"
+border=0 width=553 height=343 src="index_archivos/image950.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los <b><i><span style='color:#00B0F0'>compresores</span></i></b><span
@@ -40621,7 +41928,7 @@ de consumo. Existen diversos tipos de compresores según su principio de
 funcionamiento y aplicación específica.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=161 height=140 src="index_archivos/image820.png"
+width=161 height=140 src="index_archivos/image951.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>TIPOS DE COMPRESORES NEUMÁTICOS</span></h5>
@@ -40652,7 +41959,7 @@ intermitentes y requieren mantenimiento periódico debido al desgaste de sus
 partes móviles.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=629 height=536 src="index_archivos/image821.png"
+border=0 width=629 height=536 src="index_archivos/image952.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Por otro lado, los <b><i>compresores
@@ -40662,7 +41969,7 @@ aplicaciones industriales que requieren un suministro constante de aire
 comprimido. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=568 height=405 src="index_archivos/image822.png"
+border=0 width=568 height=405 src="index_archivos/image953.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los <b><i>compresores de paletas
@@ -40670,7 +41977,7 @@ rotativas</i></b> utilizan paletas deslizantes en un rotor excéntrico para
 comprimir el aire, destacándose por su diseño compacto y bajo nivel de ruido.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=322 height=373 src="index_archivos/image823.png"
+border=0 width=322 height=373 src="index_archivos/image954.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Compresores desplazamientos dinámicos</h6>
@@ -40689,7 +41996,7 @@ permite una alta eficiencia y un mantenimiento relativamente bajo en
 comparación con los compresores de desplazamiento positivo. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=465 height=380 src="index_archivos/image824.jpg"></p>
+border=0 width=465 height=380 src="index_archivos/image955.jpg"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los <b><i>compresores axiales</i></b>,
 por su parte, son empleados en aplicaciones aeroespaciales y turbinas de gas,
@@ -40697,7 +42004,7 @@ ya que pueden manejar flujos de aire extremadamente elevados con mínimas
 pérdidas de eficiencia.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=395 height=312 src="index_archivos/image825.jpg"></p>
+width=395 height=312 src="index_archivos/image956.jpg"></p>
 
 <h5><span style='text-transform:none'>TRATAMIENTO DEL AIRE COMPRIMIDO</span></h5>
 
@@ -40712,7 +42019,7 @@ equipos neumáticos. Para ello, se emplean <b><i>enfriadores</i></b>, <b><i>Tanq
 de presión</i></b>, <b><i>filtros</i></b>, <b><i>separadores de agua</i></b> y <b><i>secadores
 de aire</i></b>.</p>
 
-<p class=MsoNormal><img width=182 height=1 src="index_archivos/image826.png"
+<p class=MsoNormal><img width=182 height=1 src="index_archivos/image957.png"
 align=left hspace=12
 alt="Imagen que contiene objeto, edificio, reloj, ventana&#10;&#10;El contenido generado por IA puede ser incorrecto.">Los
 filtros eliminan partículas sólidas y contaminantes del aire comprimido,
@@ -40755,7 +42062,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 </span></span>Controlar la modulación de carga y descarga de los compresores</p>
 
 <p class=MsoNormal align=center style='margin-left:3.3pt;text-align:center'><img
-border=0 width=365 height=85 src="index_archivos/image827.png"
+border=0 width=365 height=85 src="index_archivos/image958.png"
 alt="Forma, Rectángulo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los <b><i><span style='color:#00B0F0'>secadores
@@ -40764,7 +42071,7 @@ la humedad relativa del aire comprimido, asegurando un funcionamiento óptimo en
 aplicaciones sensibles a la presencia de agua.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=184 height=120 src="index_archivos/image828.png"
+border=0 width=184 height=120 src="index_archivos/image959.png"
 alt="Forma, Polígono&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Sistemas de Control y Seguridad</h6>
@@ -40779,7 +42086,7 @@ mantener una presión constante en el sistema, evitando fluctuaciones que puedan
 afectar el desempeño de los equipos. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=274 src="index_archivos/image829.png"
+border=0 width=665 height=274 src="index_archivos/image960.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Las <b><i><span style='color:#00B0F0'>válvulas
@@ -40788,7 +42095,7 @@ dispositivos de seguridad, liberando el exceso de presión para evitar daños en
 el sistema. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=138 height=131 src="index_archivos/image830.png"
+border=0 width=138 height=131 src="index_archivos/image961.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los <b><i><span style='color:#00B0F0'>manómetros</span></i></b><span
@@ -40796,7 +42103,7 @@ style='color:#00B0F0'> </span>proporcionan una lectura visual de la presión del
 aire comprimido, facilitando la supervisión y el mantenimiento preventivo. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=154 height=128 src="index_archivos/image831.png"
+border=0 width=154 height=128 src="index_archivos/image962.png"
 alt="Logotipo&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Los <b><i><span style='color:#00B0F0'>sensores de flujo</span></i></b><span
@@ -40815,7 +42122,7 @@ preventivo de los dispositivos que lo requieran, para poder hacer posible esto
 se requiere la instalación de puentes</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=659 height=539 src="index_archivos/image832.png"
+width=659 height=539 src="index_archivos/image963.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>DISEÑO Y COMPONENTES DE UNA INSTALACIÓN
@@ -41409,7 +42716,7 @@ ejecutar B- seguido de A-. </p>
 Reinicio]</i></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=626 height=509 src="index_archivos/image833.png"
+border=0 width=626 height=509 src="index_archivos/image964.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Método Paso a Paso</h6>
@@ -41574,7 +42881,7 @@ errores por activación prematura. </p>
 y predecible.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=659 height=295 src="index_archivos/image834.png"
+width=659 height=295 src="index_archivos/image965.png"
 alt="Diagrama, Esquemático&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>COMPARACIÓN ENTRE AMBOS MÉTODOS</h6>
@@ -42117,10 +43424,10 @@ asistido por computadora</i>), es esencial para transformar conceptos en
 modelos precisos que puedan analizarse y optimizarse.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=613 height=381 src="index_archivos/image835.png"
+border=0 width=613 height=381 src="index_archivos/image966.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
-<p class=MsoNormal><img width=194 height=1 src="index_archivos/image836.png"
+<p class=MsoNormal><img width=194 height=1 src="index_archivos/image967.png"
 align=left hspace=12
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto.">En
 la<b> <i><span style='color:#00B0F0'>Fabricación</span></i></b>, herramientas
@@ -42154,7 +43461,7 @@ style='color:#00B0F0'>pruebas virtuales</span></i></b><span style='color:#00B0F0
 </span>mediante prototipos digitales para evaluar el diseño en situaciones
 simuladas.</p>
 
-<p class=MsoNormal><img width=150 height=1 src="index_archivos/image837.png"
+<p class=MsoNormal><img width=150 height=1 src="index_archivos/image968.png"
 align=left hspace=12
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto.">El <b><i>proceso
 de fabricación</i></b> toma como base el <b><i><span style='color:#00B0F0'>diseño
@@ -42933,7 +44240,7 @@ material, como el módulo de elasticidad, el coeficiente de Poisson y el límite
 elástico, que determinan la respuesta del sistema ante las cargas aplicadas.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=541 height=218 src="index_archivos/image838.png"></p>
+width=541 height=218 src="index_archivos/image969.png"></p>
 
 <p class=MsoNormal>Una vez definida la malla y las propiedades del material, se
 aplican las condiciones de contorno, que pueden incluir restricciones de
@@ -43620,7 +44927,7 @@ experimental, todos sus resultados están sustentados con un estricto rigor
 científico. &nbsp; </p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=510 src="index_archivos/image839.png"></p>
+width=665 height=510 src="index_archivos/image970.png"></p>
 
 <h5>MECATRÓNICA </h5>
 
@@ -43802,7 +45109,7 @@ estructura, funcionalidad y entorno de operación. Los tipos de robots más
 comunes incluyen:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=658 height=186 src="index_archivos/image840.png"
+width=658 height=186 src="index_archivos/image971.png"
 alt="Tabla&#10;&#10;Descripción generada automáticamente"></p>
 
 <h6>Robots Industriales</h6>
@@ -43843,7 +45150,7 @@ velocidad y precisión, comúnmente usados en empaquetado y selección de
 productos.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=390 src="index_archivos/image841.png"></p>
+width=665 height=390 src="index_archivos/image972.png"></p>
 
 <h6>Robots Móviles</h6>
 
@@ -43869,7 +45176,7 @@ en entornos marinos.</p>
 
 <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
 margin-bottom:0cm;margin-left:3.3pt;text-align:center'><img border=0 width=649
-height=385 src="index_archivos/image842.png"></p>
+height=385 src="index_archivos/image973.png"></p>
 
 <h6>Robots Humanoides</h6>
 
@@ -43890,9 +45197,9 @@ Hanson Robotics&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
 margin-bottom:0cm;margin-left:3.3pt;text-align:center'><img border=0 width=288
-height=184 src="index_archivos/image843.png"
+height=184 src="index_archivos/image974.png"
 alt="Imagen que contiene persona, interior, mujer, parado&#10;&#10;Descripción generada automáticamente"><img
-border=0 width=371 height=184 src="index_archivos/image844.png"></p>
+border=0 width=371 height=184 src="index_archivos/image975.png"></p>
 
 <h6>Robots de Servicio</h6>
 
@@ -44079,7 +45386,7 @@ humana, reduciendo los tiempos de recuperación y mejorando los resultados
 clínicos&#8203;.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=655 height=257 src="index_archivos/image845.png"></p>
+width=655 height=257 src="index_archivos/image976.png"></p>
 
 <p class=MsoNormal><b><i>Exploración Espacial</i></b></p>
 
@@ -44225,7 +45532,7 @@ múltiples algoritmos en paralelo, optimizando el rendimiento del
 sistema&#8203;.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=292 height=164 src="index_archivos/image846.png"
+border=0 width=292 height=164 src="index_archivos/image977.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5>SISTEMA DE POTENCIA O MOTOR</h5>
@@ -44420,13 +45727,13 @@ el contexto desde el que podremos referenciar las propiedades de los cuerpos
 que estudiemos.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=229 height=195 src="index_archivos/image847.png"></p>
+border=0 width=229 height=195 src="index_archivos/image978.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Los sistemas de referencia pueden
 estar posicionados en cualquier punto del espacio</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=386 height=188 src="index_archivos/image848.png"
+border=0 width=386 height=188 src="index_archivos/image979.png"
 alt="Imagen en blanco y negro de un reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>SISTEMAS DE COORDENADAS GLOBALES O
@@ -44482,7 +45789,7 @@ permite referenciar la posición y la orientación de un cuerpo. La posición se
 referencia con un vector de posición <i><span style='font-family:"Cambria Math",serif'>p</span></i></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=403 height=197 src="index_archivos/image849.png"
+border=0 width=403 height=197 src="index_archivos/image980.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Sistema cartesiano</h6>
@@ -44501,7 +45808,7 @@ polares y cartesianas se realiza utilizando el teorema de Pitágoras y funciones
 trigonométricas.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=285 height=49 src="index_archivos/image850.png"
+border=0 width=285 height=49 src="index_archivos/image981.png"
 alt="Interfaz de usuario gráfica&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Estas fórmulas permiten describir cualquier punto en el
@@ -44517,7 +45824,7 @@ Ry) en el sistema local y queremos obtener sus coordenadas (RX, RY) en el
 sistema global, se pueden utilizar las siguientes ecuaciones:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=221 height=59 src="index_archivos/image851.png"></p>
+border=0 width=221 height=59 src="index_archivos/image982.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde &#948; es el ángulo entre
 los dos sistemas de coordenadas&#8203;.</p>
@@ -44547,7 +45854,7 @@ la orientación de un cuerpo. Para esto, es necesario asociar un sistema de
 referencia al punto que se desea describir.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=565 height=166 src="index_archivos/image852.png"
+border=0 width=565 height=166 src="index_archivos/image983.png"
 alt="Imagen que contiene reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Matriz de rotación </h6>
@@ -44558,7 +45865,7 @@ del elemento descrito, en términos del sistema coordenado de referencia. Esta
 matriz nos dice cómo está rotado el sistema B respecto al sistema A.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=503 height=172 src="index_archivos/image853.png"></p>
+border=0 width=503 height=172 src="index_archivos/image984.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Las componentes en <span
 style='font-family:"Cambria Math",serif'>&#119909;</span>, <span
@@ -44568,13 +45875,13 @@ se pueden ver como proyecciones de cada vector unitario sobre los vectores
 unitarios de la base de referencia.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=581 height=189 src="index_archivos/image854.png"></p>
+border=0 width=581 height=189 src="index_archivos/image985.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Si <b><i>transponemos</i></b> esta
 matriz, se puede observar:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=645 height=151 src="index_archivos/image855.png"></p>
+border=0 width=645 height=151 src="index_archivos/image986.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Por lo tanto, la transpuesta de la
 matriz de rotación que representaba la rotación del sistema <i><span
@@ -44585,7 +45892,7 @@ visto desde el sistema <i><span style='font-family:"Cambria Math",serif'>B</span
 :</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=633 height=112 src="index_archivos/image856.png"
+border=0 width=633 height=112 src="index_archivos/image987.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Dado que para nuestros análisis
@@ -44593,7 +45900,7 @@ las matrices de rotación están compuestas de una base ortonormal, su inversa e
 igual a su transpuesta</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=308 height=71 src="index_archivos/image857.png"
+border=0 width=308 height=71 src="index_archivos/image988.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Para describir de forma total la
@@ -44602,7 +45909,7 @@ la rotación. Ambos datos se pueden unir en un elemento llamado <b><i>frame</i><
 que consiste en cuatro vectores que dan información de posición y orientación.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=467 height=149 src="index_archivos/image858.png"></p>
+width=467 height=149 src="index_archivos/image989.png"></p>
 
 <h5><span style='text-transform:none'>REPRESENTACIÓN DE LA ORIENTACIÓN</span></h5>
 
@@ -44610,64 +45917,64 @@ width=467 height=149 src="index_archivos/image858.png"></p>
 elemento, se toman en cuenta las proyecciones de una base sobre la otra.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=599 height=813 src="index_archivos/image859.png"
+border=0 width=599 height=813 src="index_archivos/image990.png"
 alt="Diagrama, Gráfico radial&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=225 src="index_archivos/image860.png"
+border=0 width=665 height=225 src="index_archivos/image991.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=432 height=242 src="index_archivos/image861.png"
+width=432 height=242 src="index_archivos/image992.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=338 height=255 src="index_archivos/image862.png"
+border=0 width=338 height=255 src="index_archivos/image993.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=393 height=137 src="index_archivos/image863.png"
+width=393 height=137 src="index_archivos/image994.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=666 height=247 src="index_archivos/image864.png"
+border=0 width=666 height=247 src="index_archivos/image995.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=418 height=249 src="index_archivos/image865.png"
+border=0 width=418 height=249 src="index_archivos/image996.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=283 height=245 src="index_archivos/image866.png"
+border=0 width=283 height=245 src="index_archivos/image997.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=374 height=126 src="index_archivos/image867.png"
+width=374 height=126 src="index_archivos/image998.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=660 height=232 src="index_archivos/image868.png"
+border=0 width=660 height=232 src="index_archivos/image999.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=404 height=242 src="index_archivos/image869.png"
+border=0 width=404 height=242 src="index_archivos/image1000.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=294 height=261 src="index_archivos/image870.png"></p>
+border=0 width=294 height=261 src="index_archivos/image1001.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=394 height=130 src="index_archivos/image871.png"></p>
+border=0 width=394 height=130 src="index_archivos/image1002.png"></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=175 src="index_archivos/image872.png"></p>
+width=665 height=175 src="index_archivos/image1003.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=229 src="index_archivos/image873.png"
+border=0 width=665 height=229 src="index_archivos/image1004.png"
 alt="Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal><img border=0 width=664 height=88
-src="index_archivos/image874.png"
+src="index_archivos/image1005.png"
 alt="Texto, Carta&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Para expresar la orientación de un elemento, se tienen que
@@ -44687,7 +45994,7 @@ ser una matriz ortonormal cuenta con 6 restricciones</i></b></p>
 
 <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
 margin-bottom:0cm;margin-left:3.3pt;text-align:center'><b><i><img border=0
-width=122 height=235 src="index_archivos/image875.png"
+width=122 height=235 src="index_archivos/image1006.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></i></b></p>
 
 <p class=MsoNormal>Por estas razones, existen convenciones de cómo se construye
@@ -44704,17 +46011,17 @@ margin-bottom:0cm;margin-left:21.3pt;text-indent:-18.0pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Se comienza con un sistema de referencia <span style='font-family:
 "Cambria Math",serif'>&#119860;</span> = <span style='font-family:"Nirmala UI",sans-serif'><img
-border=0 width=70 height=18 src="index_archivos/image876.png"></span></p>
+border=0 width=70 height=18 src="index_archivos/image1007.png"></span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
 margin-bottom:0cm;margin-left:21.3pt;text-indent:-18.0pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>El sistema <span style='font-family:"Cambria Math",serif'>{B</span>}
  se rota respecto a los ángulos del sistema <span style='font-family:"Cambria Math",serif'>{&#119860;</span>}
-en orden <img border=0 width=57 height=20 src="index_archivos/image877.png"></p>
+en orden <img border=0 width=57 height=20 src="index_archivos/image1008.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=334 src="index_archivos/image878.png"
+border=0 width=665 height=334 src="index_archivos/image1009.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Ángulos de Euler</h6>
@@ -44728,7 +46035,7 @@ mediante una secuencia de tres rotaciones alrededor de los ejes
 principales&#8203;.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=329 src="index_archivos/image879.png"
+width=665 height=329 src="index_archivos/image1010.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Bloqueo Gimball</h6>
@@ -44761,7 +46068,7 @@ en relación con otro objeto o sistema de coordenadas local. Por ejemplo, el
 los puntos en un cuerpo tienen el mismo desplazamiento</i></b>.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=595 height=203 src="index_archivos/image880.png"
+border=0 width=595 height=203 src="index_archivos/image1011.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5 style='margin-top:0cm'><span style='text-transform:none'>ROTACIÓN</span></h5>
@@ -44771,7 +46078,7 @@ diferentes del cuerpo sufren desplazamientos diferentes, y por lo tanto, existe
 una diferencia de desplazamiento entre dos puntos cualesquiera elegidos.</i></b></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=579 height=268 src="index_archivos/image881.png"
+border=0 width=579 height=268 src="index_archivos/image1012.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5>MOVIMIENTO COMPLEJO</h5>
@@ -44787,7 +46094,7 @@ como la suma vectorial de la componente de traslación y la componente de
 rotación:</p>
 
 <p class=MsoNormal><img border=0 width=654 height=28
-src="index_archivos/image882.png"></p>
+src="index_archivos/image1013.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>El Teorema de Chasles establece
 que cualquier desplazamiento de un cuerpo rígido equivale a la suma de una
@@ -44819,11 +46126,11 @@ representar rotaciones, especialmente en problemas de cinemática y dinámica.</
 Gibbs y la matriz de rotación se define de la siguiente manera:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=322 height=56 src="index_archivos/image883.png"
+border=0 width=322 height=56 src="index_archivos/image1014.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal><img border=0 width=455 height=149
-src="index_archivos/image884.png"
+src="index_archivos/image1015.png"
 alt="Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal><b><i>Ventajas de la Formulación de Gibbs</i></b></p>
@@ -44858,7 +46165,7 @@ conocer su descripción desde un sistema <span style='font-family:"Cambria Math"
 conociendo la descripción de B desde <span style='font-family:"Cambria Math",serif'>&#119860;</span>.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=512 height=195 src="index_archivos/image885.png"
+border=0 width=512 height=195 src="index_archivos/image1016.png"
 alt="Imagen que contiene Gráfico&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Para obtener esta descripción, se
@@ -44869,7 +46176,7 @@ base que la posición <span style='font-family:"Cambria Math",serif'>B</span> y
 se puedan sumar.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=500 height=247 src="index_archivos/image886.png"
+border=0 width=500 height=247 src="index_archivos/image1017.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Esto se logra pre-multiplicando el
@@ -44878,20 +46185,20 @@ por la matriz de rotación de <span style='font-family:"Cambria Math",serif'>B</
 desde <span style='font-family:"Cambria Math",serif'>&#119860;</span>.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=487 height=285 src="index_archivos/image887.png"
+border=0 width=487 height=285 src="index_archivos/image1018.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Esta operación se puede comprimir
 como una única multiplicación entre matrices y vectores.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=125 height=31 src="index_archivos/image888.png"></p>
+width=125 height=31 src="index_archivos/image1019.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Siendo T conocida como
 transformación homogénea</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=236 height=63 src="index_archivos/image889.png"
+width=236 height=63 src="index_archivos/image1020.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>La transformación homogénea simplifica los cálculos cuando
@@ -44902,11 +46209,11 @@ resultado matemático sea congruente, pero en otras aplicaciones, se pueden
 interpretar como un vector de perspectiva y un factor de escala.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=508 height=75 src="index_archivos/image890.png"
+border=0 width=508 height=75 src="index_archivos/image1021.png"
 alt="Imagen que contiene Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=653 height=462 src="index_archivos/image891.png"></p>
+border=0 width=653 height=462 src="index_archivos/image1022.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'>&nbsp;</p>
 
@@ -44921,11 +46228,11 @@ rígidos.</p>
 referenciado desde una base anterior a la que se conoce:</p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=224 height=87
-src="index_archivos/image892.png"
+src="index_archivos/image1023.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=396 height=243 src="index_archivos/image893.png"
+border=0 width=396 height=243 src="index_archivos/image1024.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Una transformación homogénea se puede interpretar como
@@ -44937,30 +46244,30 @@ transformaciones homogéneas de forma sucesiva permite cambiar la referencia de
 un punto.</p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=224
-height=119 src="index_archivos/image894.png"></p>
+height=119 src="index_archivos/image1025.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=406 height=240 src="index_archivos/image895.png"
+border=0 width=406 height=240 src="index_archivos/image1026.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=246
-height=170 src="index_archivos/image896.png"
+height=170 src="index_archivos/image1027.png"
 alt="Texto, Calendario&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=472 height=280 src="index_archivos/image897.png"
+border=0 width=472 height=280 src="index_archivos/image1028.png"
 alt="Imagen que contiene objeto, reloj&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=275
-height=126 src="index_archivos/image898.png"
+height=126 src="index_archivos/image1029.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=469 height=282 src="index_archivos/image899.png"
+border=0 width=469 height=282 src="index_archivos/image1030.png"
 alt="Un reloj en el medio&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=665 height=74
-src="index_archivos/image900.png"></p>
+src="index_archivos/image1031.png"></p>
 
 <h5>INVERTIR TRANSFORMACIONES</h5>
 
@@ -44969,14 +46276,14 @@ homogénea también sirve para cambiar entre qué sistemas se hace referencia.
 Algebraicamente se comporta de manera similar a una matriz de rotación.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=186 height=45 src="index_archivos/image901.png"></p>
+border=0 width=186 height=45 src="index_archivos/image1032.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Esta inversa se puede obtener de
 forma directa o de forma analítica, lo cual suele ser más eficiente al
 ejecutarse en cálculos o simulaciones.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=351 height=272 src="index_archivos/image902.png"
+width=351 height=272 src="index_archivos/image1033.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Suponiendo que conocemos la descripción del sistema 1 visto
@@ -44988,10 +46295,10 @@ y podemos construir <sup>0</sup><span style='font-family:"Cambria Math",serif'>&
 . Primero, para obtener la matriz de rotación.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=142 height=34 src="index_archivos/image903.png"></p>
+border=0 width=142 height=34 src="index_archivos/image1034.png"></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=347 height=277 id="Imagen 2" src="index_archivos/image904.png"
+border=0 width=347 height=277 id="Imagen 2" src="index_archivos/image1035.png"
 alt="Un dibujo de una persona&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Podemos también plantear el vector
@@ -44999,25 +46306,25 @@ de posición <sup>0</sup><span style='font-family:"Cambria Math",serif'>&#119849
 visto desde el sistema {1}:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=312 height=302 src="index_archivos/image905.png"
+border=0 width=312 height=302 src="index_archivos/image1036.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Sabiendo que este vector tendría
 que ser cero:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=350 height=329 src="index_archivos/image906.png"
+border=0 width=350 height=329 src="index_archivos/image1037.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Con lo que tenemos la matriz de
 transformación sin necesidad de calcular la inversa.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=462 height=185 src="index_archivos/image907.png"
+border=0 width=462 height=185 src="index_archivos/image1038.png"
 alt="Texto, Calendario&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=315 height=251 src="index_archivos/image908.png"
+border=0 width=315 height=251 src="index_archivos/image1039.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h3 style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:21.3pt;
@@ -45047,7 +46354,7 @@ movimiento del anterior.</p>
 SCARA o articulado&#8203;.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=189 src="index_archivos/image909.png"
+width=665 height=189 src="index_archivos/image1040.png"
 alt="Imagen que contiene par, esquiando, aire, nieve&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Desde el punto de vista mecánico, la cadena cinemática se
@@ -45070,7 +46377,7 @@ rotacionales</i></b>. Por otro lado, a las que producen movimiento lineal se
 les denomina <b><i>articulaciones prismáticas o lineales</i></b>. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=614 height=308 src="index_archivos/image910.png"></p>
+border=0 width=614 height=308 src="index_archivos/image1041.png"></p>
 
 <p class=MsoNormal align=center style='text-align:center'>Tipos de
 articulaciones: a) Rotacional, b) Lineal o prismática</p>
@@ -45080,7 +46387,7 @@ está formado por una barra metálica acoplada mecánicamente al rotor y al
 estator de la siguiente articulación.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=591 height=396 src="index_archivos/image911.png"
+border=0 width=591 height=396 src="index_archivos/image1042.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>El <b>espacio de trabajo</b> (<b><i>workspace</i></b>)
@@ -45090,7 +46397,7 @@ geometría del robot y la naturaleza de sus articulaciones (lineales y
 rotacionales). </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=643 height=196 src="index_archivos/image912.png"
+border=0 width=643 height=196 src="index_archivos/image1043.png"
 alt="Imagen que contiene foto, diferente, casco, tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>El espacio de trabajo de un robot industrial se encuentra
@@ -45107,7 +46414,7 @@ final se representa por [x, y, z}<sup>T </sup>y su orientación se denota a
 través de los ángulos de Euler.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=665 height=254 src="index_archivos/image913.png"
+border=0 width=665 height=254 src="index_archivos/image1044.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots de cadena cerrada</p>
@@ -45140,11 +46447,11 @@ sin incluir la muñeca o garra colocada en su extremo final. De acuerdo con lo
 anterior, los robots industriales se clasifican como:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=663 height=386 src="index_archivos/image914.png"
+border=0 width=663 height=386 src="index_archivos/image1045.png"
 alt="Diagrama, Dibujo de ingeniería&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=664 height=158 src="index_archivos/image915.png"
+border=0 width=664 height=158 src="index_archivos/image1046.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots cartesianos PPP</p>
@@ -45168,7 +46475,7 @@ recto y su estructura mecánica presenta baja destreza debido a que todas sus
 articulaciones son prismáticas.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=288 height=211 src="index_archivos/image916.png"
+border=0 width=288 height=211 src="index_archivos/image1047.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots cilíndricos RPP</p>
@@ -45184,7 +46491,7 @@ esta configuración se encuentran aquellas que procesan cavidades horizontales y
 transporte de objetos.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=203 height=193 src="index_archivos/image917.png"
+border=0 width=203 height=193 src="index_archivos/image1048.png"
 alt="Imagen que contiene aparato, tabla, computadora&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Su estructura mecánica es compleja y su espacio de trabajo
@@ -45194,7 +46501,7 @@ articulación de la base. Los ejes z<sub>1</sub> y z<sub>2</sub> son paralelos.
 El eje z<sub>3</sub> es perpendicular a los ejes z<sub>1</sub> y z<sub>2</sub>.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=207 height=208 src="index_archivos/image918.png"
+width=207 height=208 src="index_archivos/image1049.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots esféricos RRP</p>
@@ -45217,7 +46524,7 @@ encuentra en el mecanizado de piezas automotrices y la manipulación de objetos
 sobre el piso.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=312 height=267 src="index_archivos/image919.png"
+border=0 width=312 height=267 src="index_archivos/image1050.png"
 alt="Imagen que contiene aparato, objeto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>El origen del sistema de
@@ -45226,7 +46533,7 @@ y z<sub>2</sub>; el espacio de trabajo de esta configuración es una esfera
 hueca.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=332 height=335 src="index_archivos/image920.png"
+width=332 height=335 src="index_archivos/image1051.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots antropomórficos RRR</p>
@@ -45252,7 +46559,7 @@ y z<sub>3</sub> del hombro y codo, respectivamente. Los ejes z<sub>2</sub> y z<s
 son paralelos entre sí.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=467 src="index_archivos/image921.png"
+width=665 height=467 src="index_archivos/image1052.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoHeading7>Robots SCARA RRP</p>
@@ -45274,10 +46581,10 @@ para control de fuerza en el plano horizontal, por lo que la configuración
 SCARA es adecuada para tareas de ensamble con pequeños objetos.</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=591 height=430 src="index_archivos/image922.png"></p>
+width=591 height=430 src="index_archivos/image1053.png"></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=405 height=370 src="index_archivos/image923.png"
+width=405 height=370 src="index_archivos/image1054.png"
 alt="Diagrama, Dibujo de ingeniería&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5><span style='text-transform:none'>MÉTODO DE DENAVIT - HARTENBERG</span></h5>
@@ -45349,7 +46656,7 @@ posición y orientación de un eslabón respecto al anterior.</p>
 homogénea para cada eslabón se define como:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=588 height=134 src="index_archivos/image924.png"
+width=588 height=134 src="index_archivos/image1055.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Esta matriz permite calcular la posición y orientación del
@@ -45374,7 +46681,7 @@ de cada eslabón.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:21.3pt'><img border=0 width=490 height=111
-src="index_archivos/image925.png"
+src="index_archivos/image1056.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-left:21.3pt;text-indent:-18.0pt'>3.<span
@@ -45393,7 +46700,7 @@ secuencialmente las matrices.</b> Esto permite obtener la posición y
 orientación del efector final respecto a la base.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=657 height=293 src="index_archivos/image926.png"
+border=0 width=657 height=293 src="index_archivos/image1057.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h6>Ejemplo de Aplicación</h6>
@@ -45402,13 +46709,13 @@ alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 Supongamos que los eslabones tienen las siguientes características:</p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=642
-height=125 src="index_archivos/image927.png"
+height=125 src="index_archivos/image1058.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>La matriz de transformación total se obtiene como:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=121 height=33 src="index_archivos/image928.png"></p>
+width=121 height=33 src="index_archivos/image1059.png"></p>
 
 <p class=MsoNormal>Donde <b><i>T<sub>1</sub></i></b> y <b><i>T<sub>2</sub></i></b>
 son las matrices de transformación individuales de cada eslabón.</p>
@@ -45485,12 +46792,12 @@ concatenación de las transformaciones homogéneas de cada articulación del
 robot:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=465 height=33 src="index_archivos/image929.png"></p>
+width=465 height=33 src="index_archivos/image1060.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde:</p>
 
 <p class=MsoNormal><img border=0 width=499 height=71
-src="index_archivos/image930.png"
+src="index_archivos/image1061.png"
 alt="Interfaz de usuario gráfica, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>En términos del modelo de Denavit-Hartenberg (DH), la matriz
@@ -45498,7 +46805,7 @@ homogénea de transformación <b><i>T</i></b> que describe la posición y
 orientación del efector final respecto al sistema base es:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=122 height=26 src="index_archivos/image931.png"></p>
+width=122 height=26 src="index_archivos/image1062.png"></p>
 
 <p class=MsoNormal>donde cada <b><i>T<sub>i</sub></i></b> es una matriz de
 transformación homogénea que representa la rotación y traslación de la
@@ -45528,7 +46835,7 @@ matriz de rotación <b><i>Q</i></b>, que relaciona el sistema de referencia base
 con el sistema del efector final: </p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=128 height=26 src="index_archivos/image932.png"></p>
+width=128 height=26 src="index_archivos/image1063.png"></p>
 
 <p class=MsoNormal>Las matrices <b><i>Q<sub>i</sub></i></b>  pueden
 representarse de varias formas, incluyendo:</p>
@@ -45635,13 +46942,13 @@ que representa la combinación de una rotación y una traslación en el espacio
 tridimensional. Se define como:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=169 height=54 src="index_archivos/image933.png"
+border=0 width=169 height=54 src="index_archivos/image1064.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>donde:</p>
 
 <p class=MsoNormal><img border=0 width=521 height=104
-src="index_archivos/image934.png"
+src="index_archivos/image1065.png"
 alt="Gráfico, Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Mediante la concatenación de estas transformaciones
@@ -45661,7 +46968,7 @@ la matriz de transformación homogénea para cada articulación de la siguiente
 forma:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=662 height=430 src="index_archivos/image935.png"
+width=662 height=430 src="index_archivos/image1066.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>Aplicando sucesivamente estas transformaciones desde la base
@@ -45698,7 +47005,7 @@ presentan los principios fundamentales y métodos de solución para ambos
 problemas.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=608 height=174 src="index_archivos/image936.png"
+border=0 width=608 height=174 src="index_archivos/image1067.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>La cinemática se ocupa del estudio del movimiento de los
@@ -45738,7 +47045,7 @@ determinar la posición del efector final como función de los valores
 articulares.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=621 height=175 src="index_archivos/image937.png"
+border=0 width=621 height=175 src="index_archivos/image1068.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h5 style='margin-top:0cm'><span style='text-transform:none'>MÉTODO DE SOLUCIÓN
@@ -45755,7 +47062,7 @@ de las coordenadas articulares del robot.</p>
 se expresa mediante una matriz homogénea de la forma:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=476 height=93 src="index_archivos/image938.png"
+width=476 height=93 src="index_archivos/image1069.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>La matriz de transformación total
@@ -45763,7 +47070,7 @@ del efector final respecto a la base se obtiene mediante la multiplicación
 sucesiva de las matrices homogéneas:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=119 height=23 src="index_archivos/image939.png"></p>
+border=0 width=119 height=23 src="index_archivos/image1070.png"></p>
 
 <p class=MsoNormal>A partir de esta matriz, se puede extraer la posición del
 efector final <b><i>(x,y,z)</i></b> y su orientación mediante la matriz de
@@ -45878,7 +47185,7 @@ velocidades articulares con las velocidades del efector final. La matriz
 jacobiana <b><i>J</i></b> se define como:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=85 height=61 src="index_archivos/image940.png"></p>
+border=0 width=85 height=61 src="index_archivos/image1071.png"></p>
 
 <p class=MsoNormal>donde <b><i>X</i></b> representa la posición y orientación
 del efector final, y <b><i>q</i></b> representa las coordenadas articulares.</p>
@@ -45895,7 +47202,7 @@ y se obtiene la matriz inversa del Jacobiano para calcular pequeños incrementos
 en las coordenadas articulares.</p>
 
 <p class=MsoNormal align=center style='margin-left:3.3pt;text-align:center'><img
-border=0 width=147 height=40 src="index_archivos/image941.png"></p>
+border=0 width=147 height=40 src="index_archivos/image1072.png"></p>
 
 <p class=MsoHeading7>Método del pseudo-inverso de Moore-Penrose</p>
 
@@ -45905,7 +47212,7 @@ del robot. En estos casos, se utilizan técnicas como la pseudo-inversa de <b><i
 para calcular una solución aproximada:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=131 height=41 src="index_archivos/image942.png"></p>
+width=131 height=41 src="index_archivos/image1073.png"></p>
 
 <p class=MsoNormal>donde <b><i>J<sup>+</sup> </i></b>es la pseudo-inversa de <b><i>J</i></b>.
 Este método es ampliamente utilizado en robots con cinemática redundante, ya
@@ -46256,13 +47563,13 @@ pueden emplear algoritmos de control avanzados para minimizar sus efectos.</p>
 relaciona las velocidades articulares con las velocidades cartesianas:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=66 height=21 src="index_archivos/image943.png"></p>
+border=0 width=66 height=21 src="index_archivos/image1074.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'><img border=0 width=668 height=50
-src="index_archivos/image944.png"></p>
+src="index_archivos/image1075.png"></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=79 height=24 src="index_archivos/image945.png"></p>
+width=79 height=24 src="index_archivos/image1076.png"></p>
 
 <p class=MsoNormal>Sin embargo, en una singularidad, <b><i>det(J) = 0</i></b> ,
 lo que impide calcular <b><i>J<sup>-1</sup></i></b> y genera problemas en el
@@ -46280,20 +47587,20 @@ de piezas o la manipulación de objetos pesados.</p>
 dos eslabones con las siguientes ecuaciones de posición del efector final:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=526 height=75 src="index_archivos/image946.png"
+border=0 width=526 height=75 src="index_archivos/image1077.png"
 alt="Texto&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>La matriz jacobiana asociada es:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=583 height=110 src="index_archivos/image947.png"
+border=0 width=583 height=110 src="index_archivos/image1078.png"
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Para encontrar las singularidades,
 calculamos <b><i>det(J)</i></b> :</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=171 height=35 src="index_archivos/image948.png"></p>
+width=171 height=35 src="index_archivos/image1079.png"></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>Esta expresión se anula cuando <b><i>q<sub>2</sub>
 = 0°</i></b> o <b><i>q<sub>2</sub> = 180°</i></b> , lo que significa que el
@@ -46301,15 +47608,15 @@ robot entra en una configuración singular cuando los eslabones están
 completamente alineados.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=472 height=390 src="index_archivos/image949.png"
+border=0 width=472 height=390 src="index_archivos/image1080.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=299 height=117 src="index_archivos/image950.png"
+border=0 width=299 height=117 src="index_archivos/image1081.png"
 alt="Tabla&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
-width=665 height=332 src="index_archivos/image951.png"
+width=665 height=332 src="index_archivos/image1082.png"
 alt="Diagrama, Dibujo de ingeniería&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <h3 style='margin-left:21.3pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
@@ -46356,7 +47663,7 @@ eslabón para cálculos dinámicos, lo que simplifica considerablemente el
 análisis matemático.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=594 height=487 src="index_archivos/image952.png"
+border=0 width=594 height=487 src="index_archivos/image1083.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>El <b><i>tensor de inercia</i></b>
@@ -46366,15 +47673,15 @@ cambios en su movimiento angular. Esta propiedad es particularmente relevante
 en manipuladores que ejecutan movimientos rotacionales a altas velocidades. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=240 height=132 src="index_archivos/image953.png"
+border=0 width=240 height=132 src="index_archivos/image1084.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal style='margin-bottom:0cm'>en donde los elementos escalares
 están dados por:</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=231 height=173 src="index_archivos/image954.png">   <img
-border=0 width=232 height=174 src="index_archivos/image955.png"></p>
+border=0 width=231 height=173 src="index_archivos/image1085.png">   <img
+border=0 width=232 height=174 src="index_archivos/image1086.png"></p>
 
 <p class=MsoNormal>El <i>principio de D'Alembert</i> establece que para
 cualquier cuerpo rígido en movimiento, la suma de las fuerzas externas más las
@@ -46470,7 +47777,7 @@ sistema, es definido como la diferencia entre la <b><i>energía cinética total<
 y la <b><i>energía potencial total</i></b> del manipulador. </p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=374 height=52 src="index_archivos/image956.png"></p>
+border=0 width=374 height=52 src="index_archivos/image1087.png"></p>
 
 <p class=MsoNormal>La ventaja conceptual de este enfoque radica en su
 tratamiento del robot como un <i>sistema holístico </i>(enfoque integral que
@@ -46616,10 +47923,10 @@ FPGA, y algoritmos de segmentación semántica, reconocimiento de formas,
 reconstrucción tridimensional de escenas y comprensión contextual de imágenes.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=657 height=263 id="Imagen 1" src="index_archivos/image957.png"
+border=0 width=657 height=263 id="Imagen 1" src="index_archivos/image1088.png"
 alt="Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
-<h5><img width=317 height=1 src="index_archivos/image958.png" align=left
+<h5><img width=317 height=1 src="index_archivos/image1089.png" align=left
 hspace=12
 alt="Imagen que contiene Diagrama&#10;&#10;El contenido generado por IA puede ser incorrecto.">INTERPRETACIÓN</h5>
 
@@ -47245,7 +48552,7 @@ proyectos y promueve el desarrollo colaborativo dentro de la comunidad robótica
 internacional.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=405 height=118 id="Gráfico 1" src="index_archivos/image959.png"></p>
+border=0 width=405 height=118 id="Gráfico 1" src="index_archivos/image1090.png"></p>
 
 <p class=MsoNormal>La versión <b><i><span style='color:#00B0F0'>ROS 2</span></i></b>,
 con distribuciones como <b><i><span style='color:#00B0F0'>Humble Hawksbill</span></i></b><span
@@ -47262,7 +48569,7 @@ compatibilidad con diferentes plataformas, incluyendo Windows y sistemas
 embebidos, ampliando significativamente su ámbito de aplicación.</p>
 
 <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center'><img
-border=0 width=200 height=138 id="Imagen 3" src="index_archivos/image960.png"
+border=0 width=200 height=138 id="Imagen 3" src="index_archivos/image1091.png"
 alt="Icono&#10;&#10;El contenido generado por IA puede ser incorrecto."></p>
 
 <p class=MsoNormal>El ecosistema ROS ofrece una impresionante colección de
